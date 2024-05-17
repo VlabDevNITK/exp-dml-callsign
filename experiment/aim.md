@@ -1,1 +1,4 @@
-To acquire the ability to receive and understand Morse code transmissions of numbers.
+Familiarising with the concept of call signs in HAM radio and their international allocation. Developing the ability to recognize and identify call signs from different countries/regions.
+
+
+

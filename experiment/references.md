@@ -1,5 +1,3 @@
-<!-- Add resources referred for content and simulation development and further reading materials.
-Mention about only the important references -->
 <table style="text-align: justify;">
 <tr style="background-color: transparent;">
   <th>References</th>
@@ -7,20 +5,22 @@ Mention about only the important references -->
   </tr>
   <tr style="background-color: transparent;">
   <td>
-    1. Morse code translator. Morse Code Translator | Morse Code World. (n.d.).<a href="https://morsecode.world/international/translator.html">https://morsecode.world/international/translator.html</a></br></br>
-    2. Murthy, V. N. S. Principles of soil mechanics and foundation engineering. UBSPD, 2001.</br></br>
-    3. Amateur Station Operator’s Certificate Examination, - niar.org. (n.d.).
-    <br>&nbsp;&nbsp;&nbsp;<a href="https://niar.org/downloads/Study-Manual-General-Grade-22.pdf"> https://niar.org/downloads/Study-Manual-General-Grade-22.pdf</a><br>
-     &nbsp;&nbsp;&nbsp;<a href="https://www.niar.org/downloads/Study-Manual-Restricted-Grade-22.pdf">https://www.niar.org/downloads/Study-Manual-Restricted-Grade-22.pdf</a></br></br>
-    4. Modi, P. N. Soil mechanics and foundation engineering. Rajsons Publications Pvt. Ltd., 2010.</td>
+    1. National Institute of Amateur Radio (NIAR).(1983)<br> "Amateur Radio Study Manual." <br>[http://www.niar.org/downloads/ham-downloads/Study-Manual.pdf]</br></br>
+ 2. Amateur Station Operator’s Certificate Examination, - niar.org. (n.d.). https://niar.org/downloads/Study-Manual-General-Grade-22.pdf </br></br>
+    3. International Call Sign Series. https://www.arrl.org/international-call-sign-series</br></br>
+   </td>
     <td>Developer : Dr. Pruthviraj U | NITK</br></br>
     Contributors :
     <ul style="list-style-type: none;">
-      <li></li>
-      <li>Varun | NITK</li>
-      <li>Hasan Shifan | MITE</li>
+      <li>Dhanush Bhat (Intern) </li>
+      <li>Dhanush S Shetty (Intern) </li>
+      <li>Thrusha Shetty (intern)</li>
+      <li>Mohammed Nihal (intern)</li>
+      <li>Rehan Nakwa (intern)</li>
+      <li>Nihaal Ahammed (intern)</li>
+      <li>Prajwal Kumar | NITK</li>
+      <li>Shraddha Shetty | NITK</li>
       <li>Anusha B Salian | NITK</li>
-      <li>shradha shetty | NITK</li>
     </ul></td>
   </tr>
 </table>

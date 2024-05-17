@@ -1,298 +1,250 @@
-  /*mathstyle.css*/  
-span.frac {
-display: inline-block;
-text-align: center;
-vertical-align: middle;
-}
-span.frac > sup, span.frac > sub {
-display: block;
-font: inherit;
-padding: 0 0.3em;
-}
-span.frac > sup {border-bottom: 0.08em solid;}
-span.frac > span {display: none;}
-    
-	
-#simscreen
-{
-	position: relative;
-	left:0px;
-	top:0px;
-	height: 600px; 
-	width:800px;
-	border:solid 1px;
-}
+    /*mathstyle.css*/
+    span.frac {
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+    }
 
-#title{
-	position:relative;
-	left: 0px;
-	top: 0px;
-	height:40px;
-	font-size: 24px;
-	text-align:center;
-	background-color: black;
-	font-family: verdana;
-	color: White;
-	text-transform: uppercase; 
-}
+    span.frac>sup,
+    span.frac>sub {
+        display: block;
+        font: inherit;
+        padding: 0 0.3em;
+    }
 
-#title h3
-{
-	padding-top:2px;
-	margin:0px;
-}	
+    span.frac>sup {
+        border-bottom: 0.08em solid;
+    }
 
-.simsubscreen
-{
-	position:absolute;
-	left:50px;
-	top:50px;
-	height:530px;
-	width:745px;
-}
-
-.incanvas
-{
-	margin:5px 0 0 5px;
-	padding:0;
-}
-
-#nextButton
-{
-	position:absolute;
-	left:750px;
-	top:530px;
-	cursor:pointer;
-}
-
-.circlebg
-{
-	border-radius:100%;
-	font-size:25px;
-	color:#fff;
-	text-align:center;
-	background:#000
-}
-
-.steptext
-{
-	display:inline;
-	font-size:14px;
-}
-
-#copyright{
-	position: absolute;
-	left:50px;
-	top: 580px;
-	font-size:12px
-}
-select{
-	width:150px;
-	/* font-weight: bold; */
-	position:absolute;
-	left:310px;
-	top: 96px;
-	scroll-padding-left: 2%;
-	/* padding-bottom: 2%; */
-	scroll-padding-top: 2%;
-	font-weight: 600;
-	font-size: 15px;
-	cursor: pointer;
-	padding: 5px;
-	padding-top: 7px;
-	padding-bottom: 7px;
-}
-.button{
-	
-	position: absolute;
-	left:245px;
-	top: 190px;
-	border: #000 1px solid;
-	cursor: pointer;
-}
-.button:disabled{
-	color: inherit;
-	opacity: 1;
-	border: #000 1px solid;
-
-}
-label{
-	position: absolute;
-	left:170px;
-	top: 103px;
-	font-size:15px
-}
-.plybtn{
-	position: absolute;
-	left:300px;
-	top: 150px;
-	width:70px;
-	height:65px;
-	border-radius:100%;
-	border-color: #000;
-	color: #000;
-	padding-top:30px;
-	background-color: rgb(219, 221, 221);
-	cursor: pointer;
-	font-weight: 600;
-
-}
-.plybtn::before{
-	position: absolute;
-	content: '';
-	border-top: transparent 10px solid;
-	border-bottom: transparent 10px solid;
-	border-left: #000 15px solid;
-	top:45%;
-	left:50%;
-	transform: translate(-40%,-50%);
-	cursor: pointer;
-
-}
-.plybtn:disabled{
-	position: absolute;
-	left:300px;
-	top: 150px;
-	width:70px;
-	height:65px;
-	border-radius:100%;
-	border-color: #000;
-	color: #000;
-	padding-top:30px;
-	font-weight: 600;
-}
-p.ad{
-	position: absolute;
-	left:275px;
-	top: 230px;
-	font-size: 14px;
-}
-p.morse{
-	position: absolute;
-	left:388px;
-	top: 69px;
-	/* font-weight: 600; */
-	/* font-size: 20px; */
-	padding: 3px;
-	padding-left: 7px;
-	padding-right: 7px;
-	
-	
-	
-}
-p.selectmorse{
-	position: absolute;
-	left:243px;
-	top: 70px;
-}
-p.dm{
-	position: absolute;
-	left: 100px;
-	top: 135px;
-    width: 60px;
-	height:40px;
-	border-style: solid;
-	border-width: medium;
-	border-radius: 10px;
-	text-align: center;
-    text-decoration: solid;
-	font-style: bold;
-	border: 2px solid black;
-	font-size: larger;
-	padding-top: 2%;
-	padding-bottom: -2%;
-	padding-left: -2%;
-   padding-right: -2%;
-   
-   font-weight: 600;
-	font-size: 20px;
-
-}
+    span.frac>span {
+        display: none;
+    }
 
 
-.morsedisplay1{
-	position: absolute;
-	left: 490px;
-	top: 135px;
-   
-	font-weight: 700;
-	font-size: 58px;
-	font-family: monospace;
-}
-.button{
-	display: block; 
-	margin-left: 55px;
-	margin-top: 170px;
-}
-.repeat1{
-	position: absolute;
-	top:410px;
-	left:300px;
-	width: 60px;
-	height: 60px;
-	border-radius: 50%;
-	background-color:rgb(224, 223, 223);
-	color:rgb(32, 32, 32);
-	margin-left: -5px;
-	padding: 8px 8px;
-	font-size:10px;
-	
-	
-}
-.warning{
-	position: absolute;
-	left:150px;
-	top: 280px;
-	font-size:14px
-}
-.pd{
-	/* margin: 40px; */
-	padding-right: 35px;
-}
-.pd1{
-	/* margin: 40px; */
-	padding-right: 35px;
-}
+    #simscreen {
+        position: relative;
+        left: 0px;
+        top: 0px;
+        height: 600px;
+        width: 800px;
+        border: solid 1px;
+    }
 
-.opDoubledash{
-	font-weight: 600;
-	font-size: 15px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
+    #title {
+        position: relative;
+        left: 0px;
+        top: 0px;
+        height: 40px;
+        font-size: 24px;
+        text-align: center;
+        background-color: black;
+        font-family: verdana;
+        color: White;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-.repeatname{
-	font-family:Georgia, 'Times New Roman', Times, serif;
-	font-size: small;
-}
-#numberInput{
-	position: absolute;
-	left: 24rem;
-	top: 11.25em;
-}
-#slider{
-	width: 39%;
-	position: absolute;
-	left: 185px;
-	top:15rem
-}
-.selectNumber{
-	position: absolute;
-	top: 150px;
-	left: 235px;
-}
-#morseImage{
-	position: absolute;
-	top: 255px;
-	height: 150px;
-	left: 490px;
-}
-#hintButton{
-	position: absolute;
-	padding: 10px 10px;
-	top: 320px;
-	left: 257px;
-	border-radius: 8px;
-	font-weight: 600;
-	font-family:  sans-serif;
-}
+    #title h6 {
+        padding-top: 0px;
+        margin: 0px;
+        /* top: 20px; */
+    }
+
+    .simsubscreen {
+        position: absolute;
+        left: 50px;
+        top: 50px;
+        height: 530px;
+        width: 745px;
+    }
+
+    .incanvas {
+        margin: 5px 0 0 5px;
+        padding: 0;
+        line-height: 1.6;
+        position: relative;
+        right: 10px;
+    }
+
+    #nextButton {
+        position: absolute;
+        left: 750px;
+        top: 530px;
+        cursor: pointer;
+    }
+
+    .circlebg {
+        border-radius: 100%;
+        font-size: 25px;
+        color: #fff;
+        text-align: center;
+        background: #000
+    }
+
+    .obj {
+        position: relative;
+        top: 2px;
+        right: 3px;
+    }
+
+    .steptext {
+        display: inline;
+        font-size: 14px;
+    }
+
+    #copyright {
+        position: absolute;
+        left: 50px;
+        top: 580px;
+        font-size: 12px
+    }
+
+    /* css */
+    .submit-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 80px;
+        margin-left: 230px;
+    }
+
+    .para {
+        width: 705px;
+        position: relative;
+        right: 5px;
+        line-height: 1.6;
+    }
+
+    #nextButton1 {
+        position: absolute;
+        left: 320px;
+        top: 400px;
+        cursor: pointer;
+    }
+
+    .desc{
+        position: relative;
+        right: 11px;
+        /* color: red; */
+        
+    }
+
+
+
+
+    /* comments */
+    .simsubscreen1 {
+        position: absolute;
+        left: 50px;
+        top: 50px;
+        height: 530px;
+        width: 745px;
+    }
+
+    #convertButton {
+        position: absolute;
+        left: 350px;
+        bottom: 260px;
+        padding: 2px;
+        cursor: pointer;
+    }
+
+    #countryDropdown {
+        width: 200px;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 92%;
+        border: 2px solid black;
+
+
+    }
+
+
+    #errorMain {
+        position: relative;
+        top: 100px;
+        left: 130px;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        left: 150px;
+        width: 218px;
+        max-height: 260px;
+        overflow-y: auto;
+        background-color: #f9f9f9;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        border-radius: 7%;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 16px 13px;
+        text-decoration: none;
+        display: block;
+        /* border-radius: 10%; */
+    }
+
+    .dropdown-content a:hover {
+        background-color: #f1f1f1;
+    }
+
+    #submit {
+        padding-left: 380px;
+        padding-top: 260px;
+    }
+
+    .desc {
+        position: relative;
+        top: 12px;
+    }
+
+    #morse-code-value {
+        width: 100px;
+        word-wrap: break-word;
+        display: inline-block;
+        position: relative;
+        left: 270px;
+        bottom: 60px;
+        font-weight: bold;
+        /* margin-left: 20px; */
+
+    }
+
+    #repeat {
+        padding: 7px;
+        border: 2px solid black;
+        border-radius: 50%;
+        position: relative;
+        margin-left: 330px;
+
+    }
+
+    #align {
+        position: relative;
+        top: 80px;
+        left: 110px;
+    }
+
+    #align1 {
+        position: relative;
+        top: 40px;
+        margin-left: 100px;
+    }
+
+
+
+    .select_alpha {
+        position: relative;
+        bottom: 25px;
+    }
+
+    .repeatDiv {
+        position: absolute;
+        bottom: 30px;
+
+    }

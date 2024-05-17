@@ -1,21 +1,25 @@
-### These procedure steps will be followed on the simulator:
+### These procedure steps will be followed on the simulator
 
-1.Open the simulation of Morse code Syntax by navigating through the introductory paragraph,and then proceed by selecting the next button located at bottom right corner.
+**Step 1:** Open the simulation of Ham Radio: Understanding International Call Sign by navigating through the introductory paragraph, and then proceed by selecting the “NEXT” button located in the bottom right corner.
 
-![image1](images/image1.png)
+![Image 1](images/1.png)
 
-2.Select a number from the slider and click submit button.
+**Step 2:** Choose the country name from the dropdown menu.
 
-![image2](images/image2.png)
+![Image 2](images/2.png)
 
-3.Click on the Hint To Remember button to give an example of the Morse Code.
+**Step 3:** After selecting the country, Click on the submit button.
 
-![image3](images/image3.png)
+![Image 3](images/3.png)
 
-4.Click on the play button to play the Morse Code syntax.
+**Step 4:** Observe the Callsign Allocations of the country selected. To carry out the action again, click the repeat button.
 
-![image4](images/image4.png)
+![Image 4](images/4.png)
 
-5.After the display of morse code, click on repeat button. It will redirect to STEP1 for selecting a new Morse Code Syntax.
+**Step 5:** By choosing a different nation, repeat the processes.
 
-![image5](images/image5.png)
+![Image 5](images/5.png)
+
+**Step 6:** Obtain call sign assignments for the chosen nation.
+
+![Image 5](images/6.png)

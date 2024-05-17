@@ -1,175 +1,259 @@
 {
   "version": 2.0,
-  "questions": [
-    {
-      "question": "What is the fundamental unit of Morse code?",
+  "questions": [{
+      "question": "What is the primary purpose of amateur radio call signs?",
       "answers": {
-        "a": "Dashes",
-        "b": "Dots",
-        "c": "Spaces",
-        "d": "Letters"
+        "a": "To indicate the operator's age",
+        "b": "To uniquely identify each amateur radio station",
+        "c": "To specify the frequency of operation",
+        "d": "To determine the weather conditions"
       },
       "explanations": {
-        "a": "",
-        "b": "Morse code is composed of two fundamental signal elements, dots (or dits) and dashes (or dahs). Dots are the shorter signals used to represent individual letters or characters.",
-        "c": "",
-        "d": ""
+        "a": "Call signs are not designed to indicate the operator's age. They are station identifiers.",
+        "b": "The primary purpose of call signs is to provide a unique identifier for each amateur radio station, enabling clear and unambiguous communication.",
+        "c": "Call signs are not used to specify the frequency of operation. Frequencies are usually communicated separately.",
+        "d": "Call signs are not related to determining weather conditions. They are used for station identification."
       },
       "correctAnswer": "b",
-      "difficulty": "Beginner"
+      "difficulty": "beginner"
     },
     {
-      "question": "In what form can Morse code be transmitted?",
+      "question": "Which international organization plays a crucial role in coordinating and standardizing global telecommunication practices, including amateur radio call sign allocations?",
       "answers": {
-        "a": "Only through telegraph lines",
-        "b": "Through wires, radios, sound, light, and more",
-        "c": "Only through mechanical devices",
-        "d": "Only through drumming"
+        "a": "International Red Cross",
+        "b": "International Telecommunication Union (ITU)",
+        "c": "International Amateur Radio Union (IARU)",
+        "d": "United Nations Educational, Scientific and Cultural Organization (UNESCO)"
       },
       "explanations": {
-        "a": "",
-        "b": "Morse code can be transmitted through various mediums, including wires (telegraph lines), radios, sound (by tapping or drumming), light (by flashing), and even buzzing (as used in some mechanical devices).",
-        "c": "",
-        "d": ""
+        "a": "The International Red Cross is not primarily responsible for telecommunication standards",
+        "b": "Explanation: The ITU is a specialized agency of the United Nations responsible for international telecommunications standards and regulations, including those related to amateur radio ",
+        "c": "The International Amateur Radio Union (IARU) has a different role, focusing more on representing amateur radio interests.",
+        "d": "UNESCO deals with educational, scientific, and cultural matters but is not the primary authority for telecommunication regulations."
       },
       "correctAnswer": "b",
-      "difficulty": "Beginner"
+      "difficulty": "beginner"
     },
     {
-      "question": "What was the original purpose of Morse code?",
+      "question": "In the United States, which letters are commonly used as prefixes in amateur radio call signs?",
       "answers": {
-        "a": "Radio communication",
-        "b": "Emergency signalling",
-        "c": "Long-distance message transmission",
-        "d": "Ham radio operation"
+        "a": "G, M, 2E, and 2M",
+        "b": "A, K, N, and W",
+        "c": "VA, VE, VO, VY, and XJ",
+        "d": "JA to JS"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "The original purpose of Morse code was indeed for long-distance message transmission through telegraph systems, not radio communication or ham radio operation.",
-        "d": ""
+        "a": "These letters (G, M, 2E, and 2M) are more associated with call signs in the United Kingdom",
+        "b": "These letters are commonly used as prefixes in amateur radio call signs in the United States.",
+        "c": "These letters (VA, VE, VO, VY, and XJ) are associated with call signs in Canada",
+        "d": "These letters (JA to JS) are associated with call signs in Japan."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How does the structure of amateur radio call signs vary from country to country?",
+      "answers": {
+        "a": "Only in the use of numbers",
+        "b": "Only in the length of the call sign",
+        "c": "Both in the use of letters and numbers",
+        "d": "It remains the same globally"
+      },
+      "explanations": {
+        "a": "The variation is not limited to the use of numbers alone",
+        "b": "The variation is not limited to the length of the call sign",
+        "c": "The structure of call signs can vary in terms of both letters and numbers, and the specific format is determined by each country's regulatory authority.",
+        "d": "Call sign structures do not remain the same globally; they are country-specific"
       },
       "correctAnswer": "c",
-      "difficulty": "Beginner"
+      "difficulty": "beginner"
     },
     {
-      "question": "How many times longer is a dash compared to a dot in Morse code?",
+      "question": "What role do license classes play in the assignment of amateur radio call signs?",
       "answers": {
-        "a": "Two times",
-        "b": "Three times",
-        "c": "Four times",
-        "d": "Five times"
+        "a": "They determine the color of the call sign",
+        "b": " They indicate the operator's favorite frequency",
+        "c": "They affect the length of the call sign",
+        "d": "They may influence the format or prefix of the call sign"
       },
       "explanations": {
-        "a": "",
-        "b": " A dash in Morse code is three times longer in duration than a dot, not two or four times.",
-        "c": "",
-        "d": ""
-      },
-      "correctAnswer": "b",
-      "difficulty": "Intermediate"
-    },
-    {
-      "question": "How are letters separated within a word in Morse code?",
-      "answers": {
-        "a": "One dot",
-        "b": "One dash",
-        "c": "Three dots",
-        "d": "Seven dot"
-      },
-      "explanations": {
-        "a": "",
-        "b": "",
-        "c": "Letters within a word in Morse code are separated by a space equal to three dots, not one dot.",
-        "d": ""
-      },
-      "correctAnswer": "c",
-      "difficulty": "Intermediate"
-    },
-    {
-      "question": "Who primarily uses Morse code today for long-distance communication?",
-      "answers": {
-        "a": "Ham radio operators",
-        "b": "Television broadcasters",
-        "c": "Telephone operators",
-        "d": "Internet service providers"
-      },
-      "explanations": {
-        "a": "Ham radio operators commonly use Morse code for long-distance communication due to its efficiency and effectiveness in low-bandwidth conditions.",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "correctAnswer": "a",
-      "difficulty": "Intermediate"
-    },
-    {
-      "question": "How is a Morse code word separated from another word?",
-      "answers": {
-        "a": "One space equal to a dot",
-        "b": "Two spaces equal to a dot",
-        "c": "Three spaces equal to a dash",
-        "d": "spaces equal to seven dots"
-      },
-      "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": "In Morse code, words are separated by a space equal to seven dots. This longer space helps distinguish between individual words."
+        "a": " License classes do not determine the color of the call sign.",
+        "b": "The operator's favorite frequency is not a factor in call sign assignment.",
+        "c": "License classes do not directly affect the length of the call sign.",
+        "d": "Different license classes may have different call sign formats or prefixes, indicating the operator's level of proficiency."
       },
       "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the significance of the prefix 'DL' in amateur radio call signs, and in which country is it commonly used?",
+      "answers": {
+        "a": "It designates a high-frequency band",
+        "b": "It indicates a digital mode of communication",
+        "c": "It is commonly used in Germany",
+        "d": "It represents a special event station"
+      },
+      "explanations": {
+        "a": "The 'DL' prefix doesn't designate a high-frequency band.",
+        "b": "The 'DL' prefix doesn't specifically indicate a digital mode of communication.",
+        "c": "In amateur radio, call sign prefixes are assigned to different countries. 'DL' is the prefix commonly used for amateur radio stations in Germany. Therefore, option C is correct.",
+        "d": "The 'DL' prefix is not reserved for special event stations"
+      },
+      "correctAnswer": "c",
       "difficulty": "Intermediate"
     },
     {
-        "question": "Which of the following is NOT mentioned as a medium for transmitting Morse code?",
-        "answers": {
-          "a": "Sound",
-          "b": "Light",
-          "c": "Telegraph lines",
-          "d": "Printing"
-        },
-        "explanations": {
-          "a": "",
-          "b": "",
-          "c": "",
-          "d": "Printing is not mentioned as a medium for transmitting Morse code in the provided information."
-        },
-        "correctAnswer": "d",
-        "difficulty": "Advanced"
+      "question": "How does the International Telecommunication Union (ITU) contribute to the global coordination of amateur radio call signs?",
+      "answers": {
+        "a": "By assigning specific call signs to individual operators",
+        "b": "By standardizing prefixes for all countries",
+        "c": "By providing guidelines for license exams",
+        "d": "By managing online databases of call signs"
       },
-      {
-        "question": "What is the purpose of the short silence following each dot or dash in Morse code?",
-        "answers": {
-          "a": "To confuse the recipient",
-          "b": "To save energy",
-          "c": "To separate individual letters",
-          "d": "It has no specific purpose"
-        },
-        "explanations": {
-          "a": "",
-          "b": "",
-          "c": "The short silence following each dot or dash in Morse code is used to separate individual letters, making it clear where one letter ends and the next begins.",
-          "d": ""
-        },
-        "correctAnswer": "c",
-        "difficulty": "Advanced"
+      "explanations": {
+        "a": "The ITU doesn't assign specific call signs to individual operators.",
+        "b": "The ITU plays a role in coordinating global telecommunication practices, including the allocation of call sign prefixes for amateur radio. It helps standardize these prefixes, ensuring a harmonized system globally.",
+        "c": "While the ITU sets general guidelines for telecommunication, it doesn't specifically provide guidelines for license exams.",
+        "d": "Managing online databases of call signs is not a primary role of the ITU."
       },
-      {
-        "question": "Why is Morse code still relevant today?",
-        "answers": {
-          "a": "It's used for secure military communication.",
-          "b": "It's a fun hobby for enthusiasts.",
-          "c": "It aids communication for individuals with disabilities.",
-          "d": "It's a required skill for all telegraph operators."
-        },
-        "explanations": {
-          "a": "",
-          "b": "",
-          "c": "Morse code is still used today, especially in technologies and devices designed to assist individuals with disabilities, such as communication devices for those who cannot speak or write conventionally. It provides an efficient and versatile means of communication for such individuals.",
-          "d": ""
-        },
-        "correctAnswer": "c",
-        "difficulty": "Advanced"
-      }
+      "correctAnswer": "b",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "In the United Kingdom, what do call signs starting with '2E' or '2M' typically indicate?",
+      "answers": {
+        "a": "Novice operators",
+        "b": "Advanced operators",
+        "c": "Mobile stations",
+        "d": "Emergency communications"
+      },
+      "explanations": {
+        "a": "'2E' and '2M' call signs are not reserved for novice operators.",
+        "b": "In the United Kingdom, call signs starting with '2E' or '2M' are typically assigned to advanced amateur radio operators. These prefixes indicate a higher level of proficiency.",
+        "c": "These prefixes do not specifically indicate mobile stations.",
+        "d": "While emergency communications may use various call signs, '2E' and '2M' are not specifically designated for emergency use"
+      },
+      "correctAnswer": "b",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How might the call sign structure vary within a country for different classes of amateur radio licenses?",
+      "answers": {
+        "a": "Only in the use of numbers",
+        "b": "Only in the length of the call sign",
+        "c": "In both the format and prefix",
+        "d": "It remains the same for all license classes"
+      },
+      "explanations": {
+        "a": "The variation is not limited to the use of numbers only.",
+        "b": "The length of the call sign is not the only aspect that changes.",
+        "c": "Different classes of amateur radio licenses may have varying call sign structures, including both the format (combination of letters and numbers) and the prefix.",
+        "d": "The call sign structure is not uniform across all license classes"
+      },
+      "correctAnswer": "c",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What role do call signs play in emergency communications within the amateur radio community?",
+      "answers": {
+        "a": "They are used to identify the type of emergency",
+        "b": "They help operators locate emergency stations",
+        "c": "They allow for priority access to certain frequencies",
+        "d": "They are not specifically relevant to emergency communications"
+      },
+      "explanations": {
+        "a": "Call signs are not primarily used to identify the type of emergency.",
+        "b": "While call signs may help identify stations, their primary role in emergencies is not for locating stations.",
+        "c": "During emergency communications, certain call signs may be granted priority access to frequencies to facilitate efficient communication and coordination.",
+        "d": "Call signs are relevant to emergency communications and are not irrelevant to the situation"
+      },
+      "correctAnswer": "c",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Explain the role of the International Amateur Radio Union (IARU) in conjunction with the International Telecommunication Union (ITU) concerning amateur radio call signs.",
+      "answers": {
+        "a": "IARU assigns call sign prefixes, while ITU manages frequency allocations.",
+        "b": "IARU manages call sign databases, while ITU oversees license examinations.",
+        "c": "IARU coordinates global contests, while ITU standardizes call sign formats.",
+        "d": "IARU works independently of ITU in regulating amateur radio call signs."
+      },
+      "explanations": {
+        "a": "The IARU is responsible for coordinating activities and advocating for amateur radio interests, including the assignment of call sign prefixes.",
+        "b": "The IARU does not typically manage call sign databases, and the ITU does not oversee license examinations.",
+        "c": "While the IARU coordinates some aspects of amateur radio, it does not specifically focus on global contests, and the ITU's role is not to standardize call sign formats.",
+        "d": "The IARU and ITU work together on matters related to amateur radio; they are not independent of each other in this context"
+      },
+      "correctAnswer": "a",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "Describe the significance of special event call signs in amateur radio, and provide an example scenario where they might be used",
+      "answers": {
+        "a": "Special event call signs are reserved for international contests.",
+        "b": "Special event call signs are temporary assignments for unique occasions, such as anniversaries or public events.",
+        "c": "Special event call signs are exclusive to military operations.",
+        "d": "Special event call signs are used for satellite communications."
+      },
+      "explanations": {
+        "a": "Special event call signs are not reserved exclusively for international contests.",
+        "b": "Special event call signs are used to commemorate specific occasions, activities, or events within the amateur radio community. For example, a special event call sign might be assigned to celebrate the anniversary of a radio club or to support a public event like a marathon or festival.",
+        "c": "Special event call signs are not exclusive to military operations.",
+        "d": "Special event call signs are not specifically designated for satellite communications."
+      },
+      "correctAnswer": "b",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "In the context of amateur radio, what is the purpose of the Maidenhead Locator System, and how is it related to call signs?",
+      "answers": {
+        "a": "It is used for navigation during DXpeditions, and call signs incorporate locator codes.",
+        "b": "It is a system for identifying the age of an operator, and locator codes are part of call signs.",
+        "c": "It is a geolocation system, and locator codes are often included in VHF and UHF call signs.",
+        "d": "It is a system for ranking the performance of amateur radio stations, and it affects call sign assignments."
+      },
+      "explanations": {
+        "a": "The Maidenhead Locator System is not primarily used for navigation during DXpeditions.",
+        "b": "The system does not identify the age of an operator, and locator codes are not a standard part of call signs for this purpose.",
+        "c": "The Maidenhead Locator System is used for geolocation purposes, especially in VHF and UHF communications. Locator codes, part of this system, are sometimes included in amateur radio call signs to provide additional information about the station's geographic location.",
+        "d": "The Maidenhead Locator System is not used for ranking the performance of amateur radio stations."
+      },
+      "correctAnswer": "c",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "How does the concept of reciprocal operating agreements between countries impact the use of amateur radio call signs across borders?",
+      "answers": {
+        "a": "It allows operators to use their home call signs in other countries without restrictions.",
+        "b": "It limits the use of call signs to the operator's home country only.",
+        "c": "It applies only to special event stations, not individual operators.",
+        "d": "It standardizes call sign formats globally."
+      },
+      "explanations": {
+        "a": "Reciprocal operating agreements enable amateur radio operators to use their home country call signs when operating in other countries without the need for obtaining a separate license. This promotes international cooperation among amateur radio operators.",
+        "b": "Reciprocal agreements do not generally limit the use of call signs to the operator's home country only.",
+        "c": "Reciprocal agreements apply to individual operators, not just special event stations.",
+        "d": "While reciprocal agreements facilitate cross-border operations, they do not necessarily standardize call sign formats globally."
+      },
+      "correctAnswer": "a",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": " Explore the concept of call sign suffixes and how they might convey additional information about an amateur radio station.",
+      "answers": {
+        "a": "Suffixes indicate the operator's proficiency level.",
+        "b": "Suffixes are random and don't carry specific meanings.",
+        "c": "Suffixes can reveal geographic locations or specific license classes.",
+        "d": "Suffixes are standardized globally for uniform identification."
+      },
+      "explanations": {
+        "a": "Suffixes generally do not indicate the operator's proficiency level.",
+        "b": "Suffixes are not random; they often carry specific meanings related to geographic locations or license classes.",
+        "c": "Call sign suffixes, the alphanumeric characters following the prefix, can provide information about the station. They may indicate the operator's geographic location or specific license class, offering additional details about the station's identity.",
+        "d": "While call sign formats follow certain conventions, they are not standardized globally for uniform identification"
+      },
+      "correctAnswer": "c",
+      "difficulty": "Advanced"
+    }
   ]
 }

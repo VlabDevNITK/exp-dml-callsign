@@ -1,141 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta 	 charset="UTF-8">
-<title>SOLVE</title>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-<link rel="stylesheet" href="css/style.css" />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-<script type="text/javascript" src="js/script.js"></script>
-<style>
-.popup
-{
-	border-radius:5px;
-	background-color:black;
-	color:white;
-	padding:5px;
-}
-
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-}
-
-.tooltip .tooltiptext {
-  left:102px;
-  visibility: hidden;
-  width: 550px;
-  background-color: black;
-  color: #fff;
-  border-radius: 6px;
-  padding: 10px 10px 10px 10px;
-
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 100;
- /*text-align:center; */
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
-
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOLVE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script type="text/javascript" src="js/script.js"></script>
 </head>
 
 <body style="margin:0; font-family:verdana;">
-<div id="simscreen">
-<div id="title"><h3>Exploring Morse Code: Numbers</h3></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-<div class="simsubscreen" id="canvas0" >
-	<h4 class="incanvas">Objective:</h4>
-	<p class="incanvas" style="font-size:14px;">To acquire the ability to receive and understand Morse code transmissions of numbers.</p>
-    <!-- <p></p> --><br/>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.min.js"></script> -->
 
-	<br>
-	<h4 class="incanvas">Description:</h4>
+    <div id="simscreen">
+        <div id="title">
+            <h6>EXPLORING HAM RADIO: UNDERSTANDING INTERNATIONAL CALL SIGN ALLOCATION</h6>
+        </div>
 
-	<p  style="text-align: justify;padding-right: 40px;font-size: 14px;margin: 2px;margin-top: 5px;line-height: 1.5;">
-        Morse code serves as a means of conveying textual information through a series of intermittent tones, lights, or clicks. Its unique encoding allows it to be comprehended directly by a proficient listener or observer, eliminating the need for specialized equipment. It is a system of dots and dashes that can be used to send messages over long distances. It was originally used by telegraph operators to send messages using electrical pulses. Radio communicators later adapted the code to use it as an auditory language.
-<br>
-        <br>
-        Morse code can be used to send messages using Wires, Radios, Sound, Light.
-        Messages can be sent by Tapping, Drumming, Buzzing, Clicking, or flashing light.
-        Morse code is still used today by many ham radio operators. It's a recognised mode of communication in the amateur radio community, and some operators enjoy the challenge and efficiency of using Morse code for long-distance communication.It is also used in emergency signals and in technology to help disabled people communicate.</p>	
-</div>
+        <div class="simsubscreen" id="canvas0">
+            <h4 class="incanvas"><span class="obj">Objective :</span></h4> <br>
+            <p class="incanvas" style="font-size:14px;">Familiarising with the concept of call signs in HAM radio and
+                their international
+                allocation.
+                Developing the ability to recognize and identify call signs from different countries/regions.</p><br />
 
-<div id="nav">
-	
-	<img id="nextButton" onclick="navNext()" src="images/Next.png" alt="" /></a>
+            &nbsp;<span class="tooltip" style="border-bottom:1px ; color:black; top:20px; cursor:pointer;"><span
+                    class="desc"><strong>Description :</strong></span> <br> <br>
+                <!-- <span  class="tooltiptext" style="font-size:14px; text-align:justify;">Descripton goes here</span></span> -->
+                <p class="para" style="text-align: justify; font-size: 14px;"><b>HAM Radio Call Signs:</b> In the realm
+                    of amateur radio, often referred as HAM
+                    radio, call signs serve as distinctive identifiers for communication. These call signs play a
+                    crucial role
+                    in identifying the operator or station during radio transmissions.<br></p>
+                </p>
+                <p class="para" style="text-align: justify;font-size: 14px;"><b>International Call Sign Allocations:</b>
+                    The International Telecommunication Union (ITU) is responsible
+                    for allocating call sign series to various countries. Each country is assigned one or more specific
+                    series
+                    of call signs, which find application in both commercial and amateur radio communication purposes.
+                </p>
 
-</div>
+        </div>
 
-<div class="simsubscreen" id="canvas1" style="visibility:hidden;">
-	<strong class="incanvas">STEP</strong>
-	<span class="circlebg">&nbsp;1&nbsp;</span>
-	<p class="steptext">&nbsp;Select a number in the range of 0-9.</p>
-	<br><br><br><br><br><br>
+        <div class="simsubscreen" id="canvas1" style="visibility:hidden;">
+            <strong class="incanvas">STEP</strong>
+            <span class="circlebg">&nbsp;1&nbsp;</span>
+            <!-- <p class="steptext" style="font-family: verdana;font-size: 14px";>&nbsp;Select the abbreviations from drop down menu.</p> <br><br> <br> <br> -->
+            <p class="steptext" style="font-family: verdana;font-size: 14px" ;>&nbsp;Select the country name from the
+                dropdown menu.</p> <br><br> <br> <br>
 
-	<label for="textInput" class="selectNumber">Select the number: </label>
-                <input type="number" id="numberInput" name="numberInput" min="0" max="9" maxlength="1" oninput="numberMorse()" >
-                <br><br><br><br> <br><br>
-                <label for="slider">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                <!-- <input type="range" id="slider" min="0" max="9" step="1">	 -->
+            <!-- <form action="" name="dropForm" class="alphasel" style="padding: 20px;" > -->
+            <div id="align">
 
-            <input type="range" min="0" max="9" id="slider" min="0" max="9" step="1" onchange="numberMorse()">
-            <p style="text-align: left;font-size: small;margin-top: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9</p>
-                <br><br>
-	
-	<br><br>
-	<p id="warningMessage" class="warning" style="color: red;">Error: Only numeric values in the range of 0 - 9 allowed</p>
-	<div id="nav">
-		
-	<button type="submit" onclick="navNext()" id="submit" class="button" value="Submit">Submit</button>
-	
-	</div>
-	</div>
+                <label for="countryDropdown">Select a Country:</label>
+                <input type="text" id="countryDropdown" class="searchable-dropdown" placeholder="Search for a country"
+                    autocomplete="off">
 
-</div>
-   <div class="simsubscreen" id="canvas2" name="canvas2" style="visibility:hidden;">
-	<strong class="incanvas">STEP</strong>
-	<span class="circlebg">&nbsp;2&nbsp;</span>
-	<p class="steptext">&nbsp;Click on the play button to observe the Morse code equivalent of the number entered.
-	</p>
-	<br><br><br><br><br><br>
- 
-	 <div>
-		<p class="morse" id="numberMorse" ></p>
-		<button  class="plybtn" id="ply" onclick="play()" >Play</button>
-		<p id="mdisp" class="mdisplay" style="border: black;"></p>
-		<p class="selectmorse" >Selected Number:</p>
+                <div id="countryList" class="dropdown-content"></div>
+                <div id="errorMain">
+                    <div id="errorMessage" style="color: red; "></div>
+                </div>
+            </div>
 
-		
-		<!--  -->
-
-		<p class="ad">keep audio on!!
-		</p>
-		<p class="dm" id="dm1" style="align-items: center;"></p>
-        <!-- morse code  -->
-		<p><span  id="morsedisplay" class="morsedisplay1" > </span></p> 	
-		
-		<button id="hintButton" onclick="hint()" >HINT TO REMEMBER</button>
-		<img id="morseImage" style="visibility: hidden;" src="images/MorseCode.png" alt=""></a>
-		
-		<button id="repeat" class="repeat1" onclick="repeat()" style="visibility:hidden;" ><i class="material-icons">repeat</i>Repeat	</button>
-			
-	
-	
-		
-	 </div>
-	
-</div>
+            <button id="convertButton" style="border-radius: 5px;">Submit</button>
 
 
-<img class ="" id="arrow1" style="visibility:hidden;"/>
+            <div class="menu-container hidden">
+                <div class="left-menu left column">
 
-<div id="copyright"> &copy; 2023-<script>document.write(new Date().getFullYear())</script> SOLVE - The Virtual Lab @ NITK Surathkal, Department of Water Resources & Ocean Engineering</div>
-</div>
-</body> 
+
+                </div>
+
+
+                <div class="errorText2">
+                    <div id="errorText" style="color: red; "></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="simsubscreen1" id="canvas2" style="visibility:hidden;">
+            <strong class="incanvas">STEP</strong>
+            <span class="circlebg">&nbsp;2&nbsp;</span>
+            <p class="steptext">&nbsp; Observe the Callsign Allocations of the country selected.</p> <br><br> <br> <br>
+            <div class="main2">
+                <div id="align1">
+                    <p style="font-family: Verdana;">Selected Country name: <b><span
+                                id="country-name-display"></span></b></p>
+                    <br>
+                    <p class="select_alpha"> International callsigns allocated:
+                        <div id="morse-code-wrapper">
+                            <div class="callSignDiv">
+                                <span id="morse-code-value"></span>
+                            </div>
+                        </div>
+                </div>
+                <span id="messageStep2" class="messageAbr1"></span>
+
+                <p>
+                    <div class="mainCenter">
+                        <div class="">
+                            <!-- <span class="out" id="result2" ></span> -->
+                            <span class="outDash"></span>
+                            <span id="message2Step2" class="messageAbr2"></span>
+                        </div>
+
+
+                        <div>
+                        </div>
+                    </div>
+
+
+                </p>
+
+                <div>
+                    <!-- <button id="resetButton" class="repeatBtn" style="display: none;" onclick="resetToStepOne(); "><img src="./restart-removebg-preview.png" alt="" class="resImg" style="height: 28px; width: 30px;"></button> -->
+                    <div class="repeatDiv">
+                        <button id="repeat" href="#">
+
+                            <div class="repeatBtn">
+                                <span class="material-symbols-outlined"
+                                    style="position: relative; top: 5px; font-size: 21px;">
+                                    repeat
+                                </span>
+                            </div>
+                            <span class="repeatText">Repeat</span>
+
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="image-container"></div>
+
+        </div>
+
+    </div>
+
+    <div id="nav">
+        <img id="nextButton" onclick="navNext()" src="images/Next.png" />
+    </div>
+
+
+
+    <div id="copyright"> &copy;2023-<script>
+            document.write(new Date().getFullYear())
+        </script> SOLVE - The Virtual Lab @ NITK Surathkal, Department of Water Resources & Ocean Engineering</div>
+    </div>
+
+</body>
+
 </html>
