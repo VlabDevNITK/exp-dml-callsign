@@ -1,142 +1,260 @@
- {
+{
   "version": 2.0,
-  "questions": [
-    {
-      "question": "Which Morse code sequence is used for the number 0?",
+  "questions": [{
+      "question": "If a ham radio call sign is JAA-JSZ, which country is represented by the JAA prefix?",
       "answers": {
-        "a": ".-...",
-        "b": "-..--",
-        "c": "..-...",
-        "d": "-----"
+        "a": "Jamaica",
+        "b": "Japan",
+        "c": "Jordan",
+        "d": "Jamaica"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": "In Morse code, each numeral is represented by a unique combination of dots (.) and dashes (-). The Morse code sequence for the number 0 is \"-----.\""
-      },
-      "correctAnswer": "d",
-      "difficulty": "Beginner"
-    },
-    {
-      "question": "Morse code for the number 2 is:",
-      "answers": {
-        "a": "..---",
-        "b": "-....",
-        "c": ".-..-",
-        "d": "--.-"
-      },
-      "explanations": {
-        "a": "For the number 2, the Morse code is \"..---\"",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "correctAnswer": "a",
-      "difficulty": "Beginner"
-    },
-    {
-      "question": "Which Morse code character represents the number 7?",
-      "answers": {
-        "a": "-.-.-",
-        "b": "--...",
-        "c": ".-..-",
-        "d": "..---"
-      },
-      "explanations": {
-        "a": "",
-        "b": "For the number 7, the Morse code is \"--...\"",
-        "c": "",
-        "d": ""
+        "a": "This is incorrect because the JAA prefix corresponds to Japan, not Jamaica.",
+        "b": "This is correct because the JAA prefix in a ham radio call sign corresponds to Japan.",
+        "c": "This is incorrect as the correct country for the JAA prefix is Japan.",
+        "d": "This is a duplicate option and incorrect the correct answer is Japan."
       },
       "correctAnswer": "b",
-      "difficulty": "Beginner"
+      "difficulty": "beginner"
     },
     {
-      "question": "What Morse code symbol corresponds to the number 99?",
+      "question": "The suffix in a ham radio call sign is primarily used to:",
       "answers": {
-        "a": ".----",
-        "b": "-..-  -..-",
-        "c": "----. ----.",
-        "d": "-.-.- -..-"
+        "a": "Indicate the operator's mood",
+        "b": "Signal the type of modulation being used",
+        "c": "Represent the station's power level",
+        "d": "Identify the specific station within a country or region"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "For the number 99, the Morse code is \"----. ----.\"",
-        "d": ""
+        "a": "This is incorrect because the suffix in a ham radio call sign is used for identification, not to convey the operator's mood.",
+        "b": "This is incorrect because the suffix is not used to convey information about the type of modulation; it is primarily for identification purposes.",
+        "c": "This is incorrect because the suffix primarily serves to identify the specific station within a country or region, not to convey power level.",
+        "d": "This is correct because the suffix in a ham radio call sign is used to uniquely identify a specific station within a country or region."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "If a ham radio operator is using the call sign DAA-DRZ, which country is represented by the DL prefix?",
+
+      "answers": {
+        "a": "Germany",
+        "b": "Australia",
+        "c": "Japan",
+        "d": "Brazil"
+      },
+      "explanations": {
+        "a": "Is correct because the DL prefix in the call sign DAA-DRZ corresponds to Germany.",
+        "b": "This is incorrect because the DL prefix corresponds to Germany, not Australia.",
+        "c": "This is incorrect as the correct country for the DL prefix is Germany.",
+        "d": "This is incorrect as the correct answer is Germany."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "If a ham radio call sign begins with Z, what region is it likely to be from?",
+      "answers": {
+        "a": "South Africa",
+        "b": "Europe",
+        "c": "Asia",
+        "d": "North America"
+      },
+      "explanations": {
+        "a": "This is incorrect because a call sign beginning with Z is more likely to be from Europe, not South Africa.",
+        "b": "This is correct because If a ham radio call sign begins with Z, it is likely to be from Europe.",
+        "c": "This is incorrect as the Z prefix is associated with Europe, not Asia.",
+        "d": "This is incorrect as the correct region for a call sign starting with Z is Europe."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is true about ham radio call signs?",
+      "answers": {
+        "a": "They are randomly assigned by local clubs",
+        "b": "They are assigned based on the operator's favorite color",
+        "c": "They are permanent and cannot be changed",
+        "d": "They are only used for Morse code communication"
+      },
+      "explanations": {
+        "a": "This is incorrect because ham radio call signs are typically assigned by regulatory authorities and are not random.",
+        "b": "This is incorrect as call signs are assigned based on regulatory conventions, not personal preferences.",
+        "c": "This is correct as they are permanent and cannot be changed. Ham radio call signs are generally permanent and assigned to specific operators.",
+        "d": "This is incorrect because ham radio call signs are used for various modes of communication, not just Morse code."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In the international call sign K3ABC, what does the K represent?",
+      "answers": {
+        "a": "Radio frequency band",
+        "b": "Operator's license class",
+        "c": "Country or region",
+        "d": "Antenna type"
+      },
+      "explanations": {
+        "a": "This is incorrect because the call sign prefix does not denote the radio frequency band.",
+        "b": "This is incorrect because the license class is typically indicated elsewhere in the call sign, not by the initial letter.",
+        "c": "This is correct because in the international call sign K3ABC, the K prefix indicates the country or region. It specifically refers to the United States.",
+        "d": "This is incorrect because the call sign is not related to the type of antenna used."
       },
       "correctAnswer": "c",
       "difficulty": "Intermediate"
     },
     {
-      "question": "What is the Morse code representation for the number 57?",
+      "question": "If a ham radio operator is using the call sign F8XYZ, which country is represented by the F prefix?",
       "answers": {
-        "a": "-....",
-        "b": ".....",
-        "c": ".....--...",
-        "d": "-....."
+        "a": "Italy",
+        "b": "Finland ",
+        "c": "Fiji",
+        "d": "France"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "For the number 57, the Morse code is \".....--...\"",
-        "d": ""
+        "a": "This is incorrect as the F prefix is not associated with Italy.",
+        "b": "This is incorrect as the F prefix is not associated with Finland.",
+        "c": "This is incorrect as the F prefix is not associated with Fiji.",
+        "d": "This is correct because in the call sign F8XYZ, the F prefix corresponds to France."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "d",
       "difficulty": "Intermediate"
     },
     {
-      "question": "Write the Morse code for the number 09.",
+      "question": "If a ham radio operator is using the call sign FAA-FZZ, which country is represented by the F prefix?",
       "answers": {
-        "a": "----- --...",
-        "b": ".---- .....-",
-        "c": "---..",
-        "d": ".....-"
+        "a": "France",
+        "b": "Italy",
+        "c": "India",
+        "d": "Fiji"
       },
       "explanations": {
-        "a": "For the number 09, the Morse code is \"----- --...\"",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "This correct is because in the call sign FAA-FZZ, the F prefix represents France.",
+        "b": "This is incorrect as the F prefix does not represent Italy.",
+        "c": "This is incorrect as the F prefix does not represent India.",
+        "d": "This is incorrect as the F prefix does not represent Fiji."
       },
       "correctAnswer": "a",
       "difficulty": "Intermediate"
     },
     {
-      "question": "Translate the following Morse code sequence into numbers: \"...-- ...-- ...--\"",
+      "question": "What countries are part of the call sign allocation process described in the post?",
       "answers": {
-        "a": "112",
-        "b": "222",
-        "c": "333",
-        "d": "444"
+        "a": "United States only",
+        "b": "Asian countries only",
+        "c": "European Union member states only",
+        "d": "Multiple / All countriesd"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "The complete translation is \"333,\" and option 'b' corresponds to this sequence.",
-        "d": ""
+        "a": "This is incorrect as the allocation process is not exclusive to the United States.",
+        "b": "This is incorrect because the allocation process is not limited to Asian countries.",
+        "c": "This is incorrect as the process is not confined to European Union member states.",
+        "d": "This is correct because the call sign allocation process described in the post involves multiple or all countries, not limited to a specific region."
+      },
+      "correctAnswer": "d",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Which of the following terms accurately describes the call sign allocation in ham radio?",
+      "answers": {
+        "a": "International",
+        "b": "Local",
+        "c": "Regional",
+        "d": "National"
+      },
+      "explanations": {
+        "a": "This is correct because ham radio call sign allocation is done on an international level, following agreed-upon conventions.",
+        "b": "This is incorrect as call sign allocation extends beyond local jurisdictions.",
+        "c": "This is incorrect because while regions may have specific prefixes, the overall allocation is international.",
+        "d": "This is incorrect as the allocation process involves coordination beyond individual national boundaries."
+      },
+      "correctAnswer": "a",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Why is it important to understand International Call Sign allocation in ham radio?",
+      "answers": {
+        "a": "To calculate the distance between two ham radio stations",
+        "b": "To assess the quality of equipment used by a ham radio operator",
+        "c": "To identify the country of origin of a ham radio station",
+        "d": "To determine the signal strength of a ham radio transmission"
+      },
+      "explanations": {
+        "a": "This is incorrect as call sign allocation is not used for calculating distances.",
+        "b": "This is incorrect as call sign allocation is not related to equipment quality.",
+        "c": "This correct because understanding international call sign allocation helps in determining the country associated with a ham radio station.",
+        "d": "This is incorrect as call sign allocation is not used for assessing signal strength."
       },
       "correctAnswer": "c",
       "difficulty": "Advanced"
     },
     {
-      "question": "Decode this Morse code number: \"----. ---.. .---- ..---\"",
+      "question": ".Why do some countries have multiple call sign prefixes?",
       "answers": {
-        "a": "9128",
-        "b": "1928",
-        "c": "9281",
-        "d": "9812"
+        "a": "To indicate higher transmitting power levels",
+        "b": "To accommodate a larger number of licensees",
+        "c": "To signify the use of different transmission modes",
+        "d": "As a result of historical developments in ham radio"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": " The correct decoding is \"9812\" and option 'd' (\"9812\") is the accurate representation of the Morse code."
+        "a": "This is incorrect as call sign prefixes are not related to power levels.",
+        "b": "This is correct because some countries have multiple call sign prefixes to allow for a larger pool of available call signs for ham radio operators.",
+        "c": "This is incorrect because call sign prefixes are not typically linked to transmission modes.",
+        "d": "This is incorrect as while history may play a role, the primary reason is to accommodate more licensees."
       },
-      "correctAnswer": "d",
+      "correctAnswer": "b",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "How are single-letter suffixes assigned in International Call Signs?",
+      "answers": {
+        "a": "For specific governmental or military entities",
+        "b": "To indicate affiliation with a particular ham radio club",
+        "c": "By random selection from a pool of available letters",
+        "d": "As alphanumeric designations for mobile stations"
+      },
+      "explanations": {
+        "a": "This is correct because single-letter suffixes in international call signs are often reserved for certain governmental or military entities.",
+        "b": "This is incorrect as single-letter suffixes are not typically used for club affiliation.",
+        "c": "This is incorrect as single-letter suffixes are usually assigned for specific purposes.",
+        "d": "This is incorrect as single-letter suffixes are not commonly used for mobile stations."
+      },
+      "correctAnswer": "a",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "Which of the following statements about International Call Signs is false?",
+      "answers": {
+        "a": "They allow operators to track their own performance",
+        "b": "They indicate the social or economic status of the operator",
+        "c": "They are important for accurate QSL card exchanges",
+        "d": "They aid in establishing reliable communication links"
+      },
+      "explanations": {
+        "a": "This is incorrect as the call signs are used for tracking performance in ham radio.",
+        "b": "This is correct because international call signs do not provide information about the social or economic status of the operator.",
+        "c": "This is incorrect as QSL cards often rely on correct call sign information.",
+        "d": "This is correct as correct call sign allocation helps in reliable communication."
+      },
+      "correctAnswer": "b",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What would be the consequence of not having a unique call sign allocation for each country?",
+      "answers": {
+        "a": "Radio transmissions could not be reliably attributed to a specific country",
+        "b": "The number of available ham radio frequencies would decrease significantly",
+        "c": "Certain countries would gain an unfair advantage in ham radio competition",
+        "d": "Operators from different countries could not communicate with each other"
+      },
+      "explanations": {
+        "a": "This is correct because unique call sign allocation for each country is crucial for attributing radio transmissions to specific countries.",
+        "b": "This is incorrect as call sign allocation is not directly related to available frequencies.",
+        "c": "This is incorrect as call sign allocation is about identification, not competition.",
+        "d": "This is incorrect because communication is possible regardless of unique call sign allocation, but attribution would be challenging."
+      },
+      "correctAnswer": "a",
       "difficulty": "Advanced"
     }
-    
   ]
 }
