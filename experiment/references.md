@@ -6,9 +6,7 @@
   <tr style="background-color: transparent;">
   <td>
     1. National Institute of Amateur Radio (NIAR).(1983)<br> "Amateur Radio Study Manual." <br><a href="http://www.niar.org/downloads/ham-downloads/Study-Manual.pdf>http://www.niar.org/downloads/ham-downloads/Study-Manual.pdf</a></br>
-                                                                                                 
- 2. Amateur Station Operator’s Certificate Examination, - niar.org. (n.d.). <a href="https://niar.org/downloads/Study-Manual-General-Grade-22.pdf">https://niar.org/downloads/Study-Manual-General-Grade-22.pdf</a> </br>
- 
+    2. Amateur Station Operator’s Certificate Examination, - niar.org. (n.d.). <a href="https://niar.org/downloads/Study-Manual-General-Grade-22.pdf">https://niar.org/downloads/Study-Manual-General-Grade-22.pdf</a> </br>
     3. International Call Sign Series. <a href="https://www.arrl.org/international-call-sign-series">https://www.arrl.org/international-call-sign-series</a></br></br>
    </td>
     <td>Developer : Dr. Pruthviraj U | NITK</br></br>
