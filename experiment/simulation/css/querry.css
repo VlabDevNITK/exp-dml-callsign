@@ -1,0 +1,455 @@
+
+@media screen and (min-width: 300px) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+  h1 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  #copyright{
+    margin: 0px 20px;
+  }
+  .numberInput{
+    width: 15%;
+  }
+  #morseOutput {
+    grid-column: 1;
+    font-size: 45px;
+}
+/* .main-canvas{
+  height: 100%;
+  width: auto;
+} */
+
+  /* .simsubscreen
+{
+  margin: 0px ;
+
+} */
+  /* .main-canvas{
+    transform: scale(0.8);
+  } */
+  .morsePlay{
+    grid-template-columns: 1fr;
+   }
+   .table-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    overflow: auto; /* Enable scrolling */
+    max-height: 300px; /* Adjust height as needed */
+    }
+    .table-container2{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      background-color: #fff;
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      padding: 10px;
+      overflow: auto; /* Enable scrolling */
+      max-height: 300px; /* Adjust height as needed */
+      }
+    #morseOutput {
+      grid-column: 1;
+      font-size: 35px;
+    }
+    .alphaSelect,.phoneticsText,.figurecodeSelect,.phoneticsText2{
+      font-size: 14px;
+    }
+    .alpha1,.alpha2,.num1,.num2{
+      display: none;
+      font-size: 14px;
+      /* text-align: center; */
+      /* position: relative;
+      top: 50px; */
+    }
+    .phoneticsDiv{
+      display: none;
+      /* display: grid; */
+      grid-template-columns: repeat(1, 1fr);
+      /* border: 1px solid black; */
+      padding: 10px;
+      position: relative;
+      top: 30px;
+      min-width: 222px;
+      gap: 10px;
+    
+      
+    }
+    .formDiv{
+      margin: -30px;
+    }
+    #pronounce{
+      position: relative;
+      top: -38px;
+    }
+    p.ad{
+      position: relative;
+      top: 15px;
+    }
+    /* .spokenvalue{
+      margin: -18px;
+      padding: 0;
+      position: relative;
+      top: 60px;
+    } */
+    .spokenvalue {
+      /* margin: -8px;
+      padding: 0; */
+      position: relative;
+      top: -20px;
+      padding: 5px;
+      font-size: 17px;
+  }
+  #backDiv {
+    padding: 20px;
+    position: relative;
+    top: 10px;
+  }
+  .main-canvas{
+    height: auto;
+  }
+
+  label {
+    font-size: 14px; /* Adjust as per your requirement */
+}
+    
+ 
+}
+@media screen and (min-width: 500px) {
+
+    body {
+      background-color: rgb(255, 255, 255);
+    }
+  
+    h1 {
+      font-size: 2em;
+    }
+    /* .main-canvas{
+      transform: scale(0.7);
+    } */
+     .morsePlay{
+      grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+     }
+      #morseOutput {
+        grid-column: 1;
+        font-size: 60px;
+    }
+    .table-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      background-color: #fff;
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      padding: 10px;
+      overflow: auto; /* Enable scrolling */
+      max-height: 300px; /* Adjust height as needed */
+      }
+      .table-container2{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 10px;
+        overflow: auto; /* Enable scrolling */
+        max-height: 300px; /* Adjust height as needed */
+        }
+     
+      #morseOutput {
+        grid-column: 1;
+        font-size: 45px;
+      }
+      /* .main-canvas{
+        height: 100%;
+        width: auto;
+      } */
+      .alphaSelect,.phoneticsText,.figurecodeSelect,.phoneticsText2{
+        font-size: 16px;
+      }
+      .alpha1,.alpha2,.num1,.num2{
+        display: none;
+        font-size: 18px;
+        text-align: center;
+        /* position: relative;
+        top: 50px; */
+      }
+      .phoneticsDiv{
+        display: none;
+        /* display: grid; */
+        grid-template-columns: repeat(1, 1fr);
+        /* border: 1px solid black; */
+        padding: 10px;
+        position: relative;
+        top: 30px;
+        margin: 10px;
+      
+        
+      }
+      .mainPhoneticDiv{
+        display: flex; 
+        align-items: center; 
+        justify-content: center;
+        margin: -50px;
+      }
+
+      #backDiv {
+      /* margin: 10px;
+      padding: 0; */
+        /* padding: 5px; */
+      }
+      .formDiv{
+        margin: -35px;
+      }
+
+      #pronounce{
+        position: relative;
+        top: -55px;
+      }
+      p.ad{
+        position: relative;
+        top: 7px;
+      }
+      .spokenvalue {
+        /* margin: -8px;
+        padding: 0; */
+        position: relative;
+        top: -33px;
+        padding: 5px;
+        font-size: 18px;
+    }
+    #backDiv {
+      /* display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 20px; */
+      padding: 20px;
+      position: relative;
+      top: 10px;
+      /* padding: 40px; */
+    }
+
+      /* .pronounceDiv{
+        margin: -10px;
+      } */
+     /* .numberInput{
+      width: 8%;
+    } */
+    .main-canvas{
+      height: auto;
+    }
+
+    label {
+      font-size: 16px; /* Adjust as per your requirement */
+  }
+    
+    
+  }
+  
+  
+  @media screen and (min-width: 720px) {
+  
+    body {
+      background-color: rgb(255, 255, 255);
+    }
+  
+    .content {
+      height: 600px;
+      width: 800px;
+      margin: 0 auto;
+    }
+
+    #pronounce{
+      position: relative;
+      top: 0px;
+    }
+    p.ad {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      top: 55px;
+      margin: 0;
+      /* position: relative;
+      top: 110px; */
+    }
+    .spokenvalue {
+      position: relative;
+      top: 50px;
+      padding: 5px;
+      margin: 0;
+      padding: 0;
+      font-size: 20px;
+  }
+    .main-canvas{
+      height: 600px;
+    }
+    .morsePlay{
+      grid-template-columns: 1fr 1fr 1fr;
+     }
+     #morseOutput {
+      grid-column: 1;
+      font-size: 60px;
+  }
+  .table-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    overflow: auto; /* Enable scrolling */
+    max-height: 300px; /* Adjust height as needed */
+    }
+    #morseOutput {
+      grid-column: 1;
+      font-size: 30px;
+    }
+    .table-container2{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      background-color: #fff;
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      padding: 10px;
+      overflow: auto; /* Enable scrolling */
+      max-height: 300px; /* Adjust height as needed */
+      }
+      .alphaSelect,.phoneticsText,.figurecodeSelect,.phoneticsText2{
+        font-size: 20px;
+      }
+    
+      .alpha1,.alpha2,.num1,.num2{
+        display: none;
+        font-size: 18px;
+        text-align: center;
+        /* position: relative;
+        top: 50px; */
+      }
+      .phoneticsDiv{
+        display: none;
+        /* display: grid; */
+        grid-template-columns: repeat(2, 1fr);
+        /* border: 1px solid black; */
+        padding: 10px;
+        position: relative;
+        top: 30px;
+        max-width: 100%;
+        
+      }
+      .mainPhoneticDiv{
+        display: flex; 
+        align-items: center; 
+        justify-content: center;
+        margin: -30px;
+      }
+      /* .spokenvalue{
+       margin: -30px;
+      } */
+      #backDiv {
+        position: relative;
+        top: 156px;
+        padding: 5px;
+      }
+
+      .formDiv{
+        display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          margin: 10px;
+      }
+     #pronounce{
+      margin: 0;
+     }
+     .pronounceDiv{
+      /* display: flex; */
+      display: none;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      padding: 2px;
+      position: relative;
+      top: 50px;
+      
+    }
+
+    label {
+      font-size: 16px; /* Adjust as per your requirement */
+  }
+ 
+  }
+  
+  
+  @media screen and (min-width: 960px) {
+  
+    body {
+      font-size: 1.25em;
+      /* background-color: rgb(13, 118, 255); */
+    }
+    .content {
+      height: 600px;
+      width: 800px;
+      margin: 0 auto;
+    }
+    .numberInput{
+      width: 8%;
+    }
+    #morseOutput {
+      grid-column: 1;
+      font-weight: bold;
+      font-size: 32px;
+      letter-spacing: 2px;
+      color: black;
+      font-family: Arial, sans-serif;
+      
+    }
+  .table-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    overflow: auto; /* Enable scrolling */
+    max-height: 300px; /* Adjust height as needed */
+    }
+ 
+    .table-container2{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      background-color: #fff;
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      padding: 10px;
+      overflow: auto; /* Enable scrolling */
+      max-height: 300px; /* Adjust height as needed */
+      }
+
+      #backDiv {
+        padding: 5px;
+      }
+   
+    .main-canvas {
+      height: 600px;
+    
+    }
+    label {
+      font-size: 18px; /* Adjust as per your requirement */
+  }
+  }
+
+  @media screen and (min-width: 1200px) {
+    #question{
+      margin-left: -20px;
+      font-size: 14px;
+      color: #000;
+      font-weight: bold;
+      }
+      #answer{
+      font-size: 14px;
+      color: #000;
+      font-weight: bold;
+     
+      }
+      label {
+        font-size: 18px; /* Adjust as per your requirement */
+    }
+    
+  }
