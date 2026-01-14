@@ -1,259 +1,258 @@
 {
   "version": 2.0,
-  "questions": [
-    {
-      "question": "Why is clear communication crucial in HAM radio?",
+  "questions": [{
+      "question": "What is the primary purpose of amateur radio call signs?",
       "answers": {
-        "A": "Because it makes conversations more interesting. ",
-        "B": "Due to the potential degradation of radio signals and the likelihood of misinterpretation. ",
-        "C": "Clear communication is not essential in HAM radio.",
-        "D": "To use complex language and impress other operators"
+        "a": "To indicate the operator's age",
+        "b": "To uniquely identify each amateur radio station",
+        "c": "To specify the frequency of operation",
+        "d": "To determine the weather conditions"
       },
       "explanations": {
-        "A": "Option A is incorrect because the importance of clear communication in HAM radio is related to effective transmission, not making conversations more interesting.",
-        "B": "Option B is correct because clear communication is crucial in HAM radio because radio signals can be subject to interference, atmospheric conditions, and other factors that may degrade the quality of the signal. Using plain language and phonetics reduces the likelihood of misinterpretation. ",
-        "C": "Option C is incorrect because the theory emphasizes the importance of clear communication in HAM radio.",
-        "D": "Option D is incorrect because the goal is effective communication, not impressing other operators. "
+        "a": "Call signs are not designed to indicate the operator's age. They are station identifiers.",
+        "b": "The primary purpose of call signs is to provide a unique identifier for each amateur radio station, enabling clear and unambiguous communication.",
+        "c": "Call signs are not used to specify the frequency of operation. Frequencies are usually communicated separately.",
+        "d": "Call signs are not related to determining weather conditions. They are used for station identification."
       },
-      "correctAnswer": "B",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "HAM radio operators often engages  in?",
+      "question": "Which international organization plays a crucial role in coordinating and standardizing global telecommunication practices, including amateur radio call sign allocations?",
       "answers": {
-        "A": "To confuse operators from different regions.",
-        "B": "To make communication more challenging.",
-        "C": "phonetic drills and training to enhance their proficiency in using phonetics.",
-        "D": "To add unnecessary complexity to call signs."
+        "a": "International Red Cross",
+        "b": "International Telecommunication Union (ITU)",
+        "c": "International Amateur Radio Union (IARU)",
+        "d": "United Nations Educational, Scientific and Cultural Organization (UNESCO)"
       },
       "explanations": {
-        "A": "Option A is incorrect because the NATO phonetic alphabet is designed to reduce confusion, not create it.",
-        "B": "Option B is incorrect because the goal is to enhance clarity, not make communication more challenging.",
-        "C": "Option C is correct because  phonetic drills and training enhances the proficiency  in using phonetics.",
-        "D": "Option D is incorrect because the purpose is to simplify and standardize communication, not add unnecessary complexity. "
+        "a": "The International Red Cross is not primarily responsible for telecommunication standards",
+        "b": "Explanation: The ITU is a specialized agency of the United Nations responsible for international telecommunications standards and regulations, including those related to amateur radio ",
+        "c": "The International Amateur Radio Union (IARU) has a different role, focusing more on representing amateur radio interests.",
+        "d": "UNESCO deals with educational, scientific, and cultural matters but is not the primary authority for telecommunication regulations."
       },
-      "correctAnswer": "C",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "Why are phonetic numbers used in HAM radio?",
+      "question": "In the United States, which letters are commonly used as prefixes in amateur radio call signs?",
       "answers": {
-        "A": "To make conversations more interesting.",
-        "B": "To prevent confusion between digits that may sound alike. ",
-        "C": "To complicate communication.",
-        "D": "To showcase linguistic skills. "
+        "a": "G, M, 2E, and 2M",
+        "b": "A, K, N, and W",
+        "c": "VA, VE, VO, VY, and XJ",
+        "d": "JA to JS"
       },
       "explanations": {
-        "A": "Option A is incorrect because the primary goal is effective communication, not making conversations more interesting.",
-        "B": "Option B is correct because Phonetic numbers are used in HAM radio to prevent confusion between digits that may sound alike.",
-        "C": "Option C is incorrect because the purpose is to simplify and clarify communication, not complicate it.",
-        "D": "Option D is incorrect because the focus is on accurate communication, not showcasing linguistic skills."
+        "a": "These letters (G, M, 2E, and 2M) are more associated with call signs in the United Kingdom",
+        "b": "These letters are commonly used as prefixes in amateur radio call signs in the United States.",
+        "c": "These letters (VA, VE, VO, VY, and XJ) are associated with call signs in Canada",
+        "d": "These letters (JA to JS) are associated with call signs in Japan."
       },
-      "correctAnswer": "B",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "Why is the use of phonetics considered part of the standard operating procedure (SOP) in HAM radio?",
+      "question": "How does the structure of amateur radio call signs vary from country to country?",
       "answers": {
-        "A": "To facilitate smooth communication, especially in emergency situations.",
-        "B": "To confuse newcomers.",
-        "C": "It is optional and not necessary for routine operations.",
-        "D": "To add unnecessary complexity to communication."
+        "a": "Only in the use of numbers",
+        "b": "Only in the length of the call sign",
+        "c": "Both in the use of letters and numbers",
+        "d": "It remains the same globally"
       },
       "explanations": {
-        "A": "Option A is correct. The use of phonetics is considered part of the standard operating procedure (SOP) in HAM radio to facilitate smooth communication, especially in emergency situations.",
-        "B": "Option B is incorrect because the purpose is to enhance communication, not confuse newcomers.",
-        "C": "Option C is incorrect because the use of phonetics is emphasized for consistency in communication, even in routine operations.",
-        "D": "Option D is incorrect because the goal is to simplify and standardize communication, not add unnecessary complexity. "
+        "a": "The variation is not limited to the use of numbers alone",
+        "b": "The variation is not limited to the length of the call sign",
+        "c": "The structure of call signs can vary in terms of both letters and numbers, and the specific format is determined by each country's regulatory authority.",
+        "d": "Call sign structures do not remain the same globally; they are country-specific"
       },
-      "correctAnswer": "A",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "How does the use of phonetics aid in improving signal intelligibility in HAM radio?",
+      "question": "What role do license classes play in the assignment of amateur radio call signs?",
       "answers": {
-        "A": "By preventing signal distortion.",
-        "B": "By making signals louder. ",
-        "C": "By increasing signal complexity.",
-        "D": "By reducing the range of radio frequencies."
+        "a": "They determine the color of the call sign",
+        "b": " They indicate the operator's favorite frequency",
+        "c": "They affect the length of the call sign",
+        "d": "They may influence the format or prefix of the call sign"
       },
       "explanations": {
-        "A": "Option A is correct. The use of phonetics aids in improving signal intelligibility in HAM radio by helping operators understand and relay information even when the signal quality is less than optimal, preventing signal distortion.",
-        "B": "Option B is incorrect because the goal is not to make signals louder but to improve clarity.",
-        "C": "Option C is incorrect because the goal is to simplify communication, not increase signal complexity.",
-        "D": "Option D is incorrect because the use of phonetics is unrelated to reducing the range of radio frequencies"
+        "a": " License classes do not determine the color of the call sign.",
+        "b": "The operator's favorite frequency is not a factor in call sign assignment.",
+        "c": "License classes do not directly affect the length of the call sign.",
+        "d": "Different license classes may have different call sign formats or prefixes, indicating the operator's level of proficiency."
       },
-      "correctAnswer": "A",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "In HAM radio, what impact does signal interference have on communication?",
+      "question": "What is the significance of the prefix 'DL' in amateur radio call signs, and in which country is it commonly used?",
       "answers": {
-        "A": "Signal interference improves communication clarity.",
-        "B": "Signal interference has no impact on communication.",
-        "C": "Signal interference degrades communication quality ",
-        "D": "Signal interference eliminates atmospheric conditions."
+        "a": "It designates a high-frequency band",
+        "b": "It indicates a digital mode of communication",
+        "c": "It is commonly used in Germany",
+        "d": "It represents a special event station"
       },
       "explanations": {
-        "A": "Option A is incorrect because signal interference does not improve communication clarity. In fact, interference is a source of noise that can reduce the clarity of the transmitted signals.",
-        "B": "Option B is incorrect because signal interference does have a significant impact on communication. It can introduce noise and distort the signals, affecting the overall quality of the communication.",
-        "C": "Option C is correct. Signal interference in HAM radio refers to unwanted signals or noise that can disrupt the normal transmission of communication. This interference can be caused by various factors, including electronic devices, atmospheric conditions, and other radio signals. When interference occurs, it often degrades the quality of the communication signal, making it more difficult for operators to receive and understand messages.",
-        "D": "Option D is incorrect because signal interference does not eliminate atmospheric conditions. Interference and atmospheric conditions are separate issues, and interference can occur in various environmental circumstances."
+        "a": "The 'DL' prefix doesn't designate a high-frequency band.",
+        "b": "The 'DL' prefix doesn't specifically indicate a digital mode of communication.",
+        "c": "In amateur radio, call sign prefixes are assigned to different countries. 'DL' is the prefix commonly used for amateur radio stations in Germany. Therefore, option C is correct.",
+        "d": "The 'DL' prefix is not reserved for special event stations"
       },
-      "correctAnswer": "C",
-      "difficulty": "intermediate"
+      "correctAnswer": "c",
+      "difficulty": "Intermediate"
     },
     {
-      "question": "In HAM radio, why is practicing phonetic drills and training important for operators?",
+      "question": "How does the International Telecommunication Union (ITU) contribute to the global coordination of amateur radio call signs?",
       "answers": {
-        "A": "To impress other operators with linguistic skills.",
-        "B": "To add unnecessary complexity to communication. ",
-        "C": "To enhance proficiency in using phonetics for quick and accurate communication.",
-        "D": "It is not necessary as phonetics are easy to grasp."
+        "a": "By assigning specific call signs to individual operators",
+        "b": "By standardizing prefixes for all countries",
+        "c": "By providing guidelines for license exams",
+        "d": "By managing online databases of call signs"
       },
       "explanations": {
-        "A": "Option A is incorrect because the primary goal is effective communication, not impressing others with linguistic skills.",
-        "B": "Option B is incorrect because the purpose of phonetic drills is to simplify and standardize communication, not add unnecessary complexity.",
-        "C": "Option C is correct.  Practicing phonetic drills and training is important for HAM radio operators to enhance their proficiency in using phonetics for quick and accurate communication.",
-        "D": "Option D is incorrect because while phonetics are standardized, regular practice helps ensure quick and accurate communication."
+        "a": "The ITU doesn't assign specific call signs to individual operators.",
+        "b": "The ITU plays a role in coordinating global telecommunication practices, including the allocation of call sign prefixes for amateur radio. It helps standardize these prefixes, ensuring a harmonized system globally.",
+        "c": "While the ITU sets general guidelines for telecommunication, it doesn't specifically provide guidelines for license exams.",
+        "d": "Managing online databases of call signs is not a primary role of the ITU."
       },
-      "correctAnswer": "C",
-      "difficulty": "intermediate"
+      "correctAnswer": "b",
+      "difficulty": "Intermediate"
     },
     {
-      "question": "How does the use of phonetics contribute to the effectiveness of HAM radio communication during adverse weather conditions?",
+      "question": "In the United Kingdom, what do call signs starting with '2E' or '2M' typically indicate?",
       "answers": {
-        "A": "By reducing the need for communication during adverse weather.",
-        "B": "By making communication more challenging.",
-        "C": "By limiting communication to essential information only.",
-        "D": "By improving signal intelligibility."
+        "a": "Novice operators",
+        "b": "Advanced operators",
+        "c": "Mobile stations",
+        "d": "Emergency communications"
       },
       "explanations": {
-        "A": "Option A is incorrect because the goal is to enhance, not reduce, communication during adverse weather.",
-        "B": "Option B is incorrect because the purpose is to simplify communication, not make it more challenging. ",
-        "C": "Option C is incorrect because the use of phonetics is not about limiting communication but ensuring clear transmission of information.",
-        "D": "Option D is correct. The use of phonetics contributes to the effectiveness of HAM radio communication during adverse weather conditions by improving signal intelligibility."
+        "a": "'2E' and '2M' call signs are not reserved for novice operators.",
+        "b": "In the United Kingdom, call signs starting with '2E' or '2M' are typically assigned to advanced amateur radio operators. These prefixes indicate a higher level of proficiency.",
+        "c": "These prefixes do not specifically indicate mobile stations.",
+        "d": "While emergency communications may use various call signs, '2E' and '2M' are not specifically designated for emergency use"
       },
-      "correctAnswer": "D",
-      "difficulty": "intermediate"
+      "correctAnswer": "b",
+      "difficulty": "Intermediate"
     },
     {
-      "question": "What is the significance of understanding phonetics for HAM radio operators in emergency situations?",
+      "question": "How might the call sign structure vary within a country for different classes of amateur radio licenses?",
       "answers": {
-        "A": "It is not relevant as emergency situations require different communication methods.",
-        "B": "It allows operators to communicate in code.",
-        "C": "It enables quick and accurate information exchange, facilitating effective communication.",
-        "D": "It complicates communication during emergencies."
+        "a": "Only in the use of numbers",
+        "b": "Only in the length of the call sign",
+        "c": "In both the format and prefix",
+        "d": "It remains the same for all license classes"
       },
       "explanations": {
-        "A": "Option A is incorrect because understanding phonetics is relevant in emergency situations for effective communication. ",
-        "B": "Option B is incorrect because the goal is not to communicate in code but to ensure clear and standardized communication.",
-        "C": "Option C is correct. Understanding phonetics is significant for HAM radio operators in emergency situations because it enables quick and accurate information exchange, facilitating effective communication.",
-        "D": "Option D is incorrect because the use of phonetics is meant to simplify, not complicate, communication during emergencies."
+        "a": "The variation is not limited to the use of numbers only.",
+        "b": "The length of the call sign is not the only aspect that changes.",
+        "c": "Different classes of amateur radio licenses may have varying call sign structures, including both the format (combination of letters and numbers) and the prefix.",
+        "d": "The call sign structure is not uniform across all license classes"
       },
-      "correctAnswer": "C",
-      "difficulty": "intermediate"
+      "correctAnswer": "c",
+      "difficulty": "Intermediate"
     },
     {
-      "question": "How do phonetics help in overcoming challenges posed by weak signals in HAM radio?",
+      "question": "What role do call signs play in emergency communications within the amateur radio community?",
       "answers": {
-        "A": "By providing a clear and standardized method for conveying information. ",
-        "B": "By introducing additional challenges",
-        "C": "By amplifying weak signals",
-        "D": "By limiting communication to essential information only"
+        "a": "They are used to identify the type of emergency",
+        "b": "They help operators locate emergency stations",
+        "c": "They allow for priority access to certain frequencies",
+        "d": "They are not specifically relevant to emergency communications"
       },
       "explanations": {
-        "A": "Option A is correct. Phonetics help in overcoming challenges posed by weak signals in HAM radio by providing a clear and standardized method for conveying information.",
-        "B": "Option B is incorrect because the purpose of phonetics is to simplify communication, not introduce additional challenges.",
-        "C": "Option C is incorrect because phonetics do not amplify signals but aid in effective communication.",
-        "D": "Option D is incorrect because phonetics are used to ensure clear transmission, not to limit communication."
+        "a": "Call signs are not primarily used to identify the type of emergency.",
+        "b": "While call signs may help identify stations, their primary role in emergencies is not for locating stations.",
+        "c": "During emergency communications, certain call signs may be granted priority access to frequencies to facilitate efficient communication and coordination.",
+        "d": "Call signs are relevant to emergency communications and are not irrelevant to the situation"
       },
-      "correctAnswer": "D",
-      "difficulty": "intermediate"
+      "correctAnswer": "c",
+      "difficulty": "Intermediate"
     },
     {
-      "question": "In HAM radio, what potential challenges may arise if operators do not use phonetics in communication? ",
+      "question": "Explain the role of the International Amateur Radio Union (IARU) in conjunction with the International Telecommunication Union (ITU) concerning amateur radio call signs.",
       "answers": {
-        "A": " Increased likelihood of errors and misinterpretation.",
-        "B": " Enhanced signal clarity due to natural pronunciation. ",
-        "C": " Improved communication in adverse weather conditions.",
-        "D": "To use complex language and impress other operators. "
+        "a": "IARU assigns call sign prefixes, while ITU manages frequency allocations.",
+        "b": "IARU manages call sign databases, while ITU oversees license examinations.",
+        "c": "IARU coordinates global contests, while ITU standardizes call sign formats.",
+        "d": "IARU works independently of ITU in regulating amateur radio call signs."
       },
       "explanations": {
-        "A": "Option A is correct. If operators do not use phonetics in HAM radio communication, there is an increased likelihood of errors and misinterpretation.",
-        "B": "Option B is incorrect because the natural pronunciation may not always be clear, especially in less-than-ideal conditions. ",
-        "C": "Option C is incorrect because the use of phonetics contributes to improved communication in adverse weather conditions by enhancing signal intelligibility. ",
-        "D": "Option D is incorrect because the efficiency in transmitting numeric information is achieved through the use of phonetic numbers."
+        "a": "The IARU is responsible for coordinating activities and advocating for amateur radio interests, including the assignment of call sign prefixes.",
+        "b": "The IARU does not typically manage call sign databases, and the ITU does not oversee license examinations.",
+        "c": "While the IARU coordinates some aspects of amateur radio, it does not specifically focus on global contests, and the ITU's role is not to standardize call sign formats.",
+        "d": "The IARU and ITU work together on matters related to amateur radio; they are not independent of each other in this context"
       },
-      "correctAnswer": "A",
+      "correctAnswer": "a",
       "difficulty": "Advanced"
     },
     {
-      "question": "Why is the use of plain language discouraged in HAM radio for critical information?",
+      "question": "Describe the significance of special event call signs in amateur radio, and provide an example scenario where they might be used",
       "answers": {
-        "A": "It violates international communication etiquette.",
-        "B": "It adds an element of surprise to the communication.",
-        "C": "̪It may lead to confusion and misinterpretation, especially in less-than-ideal conditions. ",
-        "D": "̚ It complies with regional language regulations."
+        "a": "Special event call signs are reserved for international contests.",
+        "b": "Special event call signs are temporary assignments for unique occasions, such as anniversaries or public events.",
+        "c": "Special event call signs are exclusive to military operations.",
+        "d": "Special event call signs are used for satellite communications."
       },
       "explanations": {
-        "A": " Option A is incorrect because the discouragement of plain language is not primarily about violating international communication etiquette but ensuring effective communication.",
-        "B": " Option B is incorrect as the purpose is not to add an element of surprise but to enhance clarity.",
-        "C": " Option C is correct. The use of plain language for critical information in HAM radio is discouraged because it may lead to confusion and misinterpretation, particularly in challenging conditions such as interference or atmospheric issues. ",
-        "D": " Option D is incorrect because the discouragement of plain language is not solely to comply with regional language regulations, but to improve overall communication effectiveness."
+        "a": "Special event call signs are not reserved exclusively for international contests.",
+        "b": "Special event call signs are used to commemorate specific occasions, activities, or events within the amateur radio community. For example, a special event call sign might be assigned to celebrate the anniversary of a radio club or to support a public event like a marathon or festival.",
+        "c": "Special event call signs are not exclusive to military operations.",
+        "d": "Special event call signs are not specifically designated for satellite communications."
       },
-      "correctAnswer": "C",
+      "correctAnswer": "b",
       "difficulty": "Advanced"
     },
     {
-      "question": "How does the use of phonetic numbers contribute to the clarity of numeric information in HAM radio? ",
+      "question": "In the context of amateur radio, what is the purpose of the Maidenhead Locator System, and how is it related to call signs?",
       "answers": {
-        "A": "By making numeric information more complex.",
-        "B": "By preventing the transmission of numeric information.",
-        "C": "By reducing the likelihood of confusion between similar-sounding digits.",
-        "D": "By limiting the use of numeric information."
+        "a": "It is used for navigation during DXpeditions, and call signs incorporate locator codes.",
+        "b": "It is a system for identifying the age of an operator, and locator codes are part of call signs.",
+        "c": "It is a geolocation system, and locator codes are often included in VHF and UHF call signs.",
+        "d": "It is a system for ranking the performance of amateur radio stations, and it affects call sign assignments."
       },
       "explanations": {
-        "A": "Option A is incorrect because the goal is to simplify, not make numeric information more complex.",
-        "B": "Option B is incorrect because the purpose is to transmit numeric information clearly using phonetic representations.",
-        "C": "Option C is correct. The use of phonetic numbers contributes to the clarity of numeric information in HAM radio by reducing the likelihood of confusion between similar-sounding digits.",
-        "D": "Option D is incorrect because the use of numeric information is not limited but enhanced through phonetics"
+        "a": "The Maidenhead Locator System is not primarily used for navigation during DXpeditions.",
+        "b": "The system does not identify the age of an operator, and locator codes are not a standard part of call signs for this purpose.",
+        "c": "The Maidenhead Locator System is used for geolocation purposes, especially in VHF and UHF communications. Locator codes, part of this system, are sometimes included in amateur radio call signs to provide additional information about the station's geographic location.",
+        "d": "The Maidenhead Locator System is not used for ranking the performance of amateur radio stations."
       },
-      "correctAnswer": "C",
+      "correctAnswer": "c",
       "difficulty": "Advanced"
     },
     {
-      "question": "What role does the International Radiotelephony Spelling Alphabet play in HAM radio communication?",
+      "question": "How does the concept of reciprocal operating agreements between countries impact the use of amateur radio call signs across borders?",
       "answers": {
-        "A": "It adds complexity to communication.",
-        "B": "It provides a standardized and clear method to convey information.",
-        "C": "It is optional and rarely used.",
-        "D": "It is exclusive to military HAM radio operations."
+        "a": "It allows operators to use their home call signs in other countries without restrictions.",
+        "b": "It limits the use of call signs to the operator's home country only.",
+        "c": "It applies only to special event stations, not individual operators.",
+        "d": "It standardizes call sign formats globally."
       },
       "explanations": {
-        "A": "Option A is incorrect because the goal is to simplify, not add complexity to communication.  ",
-        "B": "Option B is correct. The International Radiotelephony Spelling Alphabet (NATO phonetic alphabet) in HAM radio communication provides a standardized and clear method to convey information. ",
-        "C": "Option C is incorrect because the NATO phonetic alphabet is widely used and not optional in HAM radio.",
-        "D": ")Option D is incorrect because the NATO phonetic alphabet is used in both military and civilian HAM radio operations. "
+        "a": "Reciprocal operating agreements enable amateur radio operators to use their home country call signs when operating in other countries without the need for obtaining a separate license. This promotes international cooperation among amateur radio operators.",
+        "b": "Reciprocal agreements do not generally limit the use of call signs to the operator's home country only.",
+        "c": "Reciprocal agreements apply to individual operators, not just special event stations.",
+        "d": "While reciprocal agreements facilitate cross-border operations, they do not necessarily standardize call sign formats globally."
       },
-      "correctAnswer": "B",
+      "correctAnswer": "a",
       "difficulty": "Advanced"
     },
     {
-      "question": " How do phonetics aid in maintaining effective communication during long-distance HAM radio transmissions?",
+      "question": " Explore the concept of call sign suffixes and how they might convey additional information about an amateur radio station.",
       "answers": {
-        "A": "By increasing signal strength.",
-        "B": "By preventing signal distortion and improving signal intelligibility. ",
-        "C": "By reducing the need for communication during long distances.",
-        "D": "By limiting communication to essential information only."
+        "a": "Suffixes indicate the operator's proficiency level.",
+        "b": "Suffixes are random and don't carry specific meanings.",
+        "c": "Suffixes can reveal geographic locations or specific license classes.",
+        "d": "Suffixes are standardized globally for uniform identification."
       },
       "explanations": {
-        "A": "Option A is incorrect because phonetics do not directly impact signal strength. ",
-        "B": "Option B is correct. Phonetics aid in maintaining effective communication during long-distance HAM radio transmissions by preventing signal distortion and improving signal intelligibility. ",
-        "C": "Option C is incorrect because the goal is to enhance, not reduce, communication during long distances.",
-        "D": "Option D is incorrect because the use of phonetics is not about limiting communication but ensuring clear transmission of information."
+        "a": "Suffixes generally do not indicate the operator's proficiency level.",
+        "b": "Suffixes are not random; they often carry specific meanings related to geographic locations or license classes.",
+        "c": "Call sign suffixes, the alphanumeric characters following the prefix, can provide information about the station. They may indicate the operator's geographic location or specific license class, offering additional details about the station's identity.",
+        "d": "While call sign formats follow certain conventions, they are not standardized globally for uniform identification"
       },
-      "correctAnswer": "B",
+      "correctAnswer": "c",
       "difficulty": "Advanced"
     }
   ]
