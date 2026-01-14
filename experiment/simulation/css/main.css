@@ -2,13 +2,69 @@ body {
 	background-color: #ccc;
 	color: #222;
 	font: 1.0em helvetica;
-	user-select: none; /* Prevent text selection */
-    cursor: default; /* Use default cursor instead of text cursor */
+	user-select: none;
+	/* Prevent text selection */
+	cursor: default;
+	/* Disable text cursor */
 }
+
+#name {
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	width: fit-content;
+	opacity: 0;
+	border-radius: 5px;
+	border: 3px solid rgb(245, 128, 128);
+	padding: 0px 5px;
+	font-size: 1.5rem;
+
+}
+
+.countrySelectDiv {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#countryDropdown {
+	width: 130px;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 92%;
+	border: 2px solid black;
+	font-size: 14px;
+	outline: none;
+
+
+}
+
+
+#timeCont {
+	background-color: white;
+	width: fit-content;
+	font-size: 1.5rem;
+	padding: 5px 5px;
+	border-radius: 5px;
+	border: 3px solid rgb(245, 128, 128);
+}
+
+.btnDiv {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 100%;
+}
+
+
+svg path {
+	cursor: pointer;
+}
+
 
 h1 {
 	font-size: 1.5em;
 	font-weight: bold;
+	text-align: justify;
 	/* margin: 1em 0; */
 }
 
@@ -19,54 +75,27 @@ p {
 .content {}
 
 .steptext {
-	/* display: inline; */
-	    display: block;
+	display: inline;
 	font-size: 14px;
+	text-align: center;
 	text-align: justify;
-	position: relative;
-	top: -35px;
-	left: 70px;
-	max-width: 80%;
 }
-.menu-container{
-	display: none;
+
+#alphabetInput {
+	outline: none;
+}
+
+#errorText {
+	/* display: flex;
 	align-items: center;
 	justify-content: center;
-	/* margin-top: 20px; */
-	padding: 20px;
-}
-
-.menu-container2{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	/* margin-top: 20px; */
-	padding: 25px;
-}
-
-.stop-dot {
-    font-size: 1.5em; /* Adjust this value as needed */
-    font-weight: bold; /* Optional: Make the text bold */
-}
-
-
-.errorText {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-
-.error-message {
+	text-align: center;
+	font-size: 18px; */
 	color: red;
 	text-align: center;
-	display: none; /* Hidden by default */
-}
-.formDiv{
-	display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+	font-size: 18px;
+	position: relative;
+	top: -10px;
 }
 
 .place {
@@ -75,90 +104,19 @@ p {
 
 .out {
 	grid-column: 1;
-	width: 60px;
-	height: 55px;
-	padding: 20px;
+	width: 50px;
+	height: 50px;
 	border-radius: 20%;
 	/* font-weight: 500; */
 	font-weight: bold;
 	border: 2.5px solid rgb(0, 0, 0);
 	color: #000000;
-	font-size: 15px;
+	font-size: 25px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
 	margin: 1em 0;
 
-}
-
-#backButton:disabled{
-	color: inherit;
-	opacity: 1;
-	border: #000 1px solid;
-	cursor: not-allowed;
-}
-#backButton {
-	display: none;
-	padding: 4px 10px;
-	background-color: #fff;
-	border: ipx solid black;
-	border-radius: 5px;
-	cursor: pointer;
-	text-align: center;
-	/* margin: 10px; */
-	font-size: 14px;
-	/* margin-top: 80px; */
-	
-
-
-}
-#backButton:hover {
-	background-color: rgb(196, 203, 203);
-}
-
-#backButton img {
-	width: 16px;
-	height: auto;
-	margin-right: 5px;
-}
-
-#backDiv {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding: 5px;
-	position: relative;
-	top: 100px;
-	/* position: relative;
-	top: 100px; */
-	/* margin-top: 100px; */
-}
-
-/* #backBtnDiv {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-} */
-.tableText{
-	font-size: 14px;
-	color: #000;
-	font-weight: bold;
-}
-.qtext{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	
-}
-
-.lowercase{
-	position: relative;
-    top: 1px;
-    font-size: 12px;
-	left:3px;
-	color: #111;
-	font-weight: bold;
 }
 
 .main-heading {
@@ -181,8 +139,11 @@ p {
 	justify-content: space-between;
 	border: 1px solid black;
 	height: 600px;
-	box-sizing: border-box; /* Makes padding and border part of the height/width */
-    padding-bottom: 2px; /* Prevents content from overlapping with the footer */
+	box-sizing: border-box;
+	/* Makes padding and border part of the height/width */
+	padding-bottom: 2px;
+	/* Prevents content from overlapping with the footer */
+
 }
 
 #simscreen {
@@ -196,15 +157,21 @@ p {
 
 .simsubscreen {
 	margin: 10px 50px 0px 50px;
-	min-height: 300px;
 
 }
 
-/* #canvas1{
-	min-height: 400px;
-} */
-
 #copyright {
+	/* display: flex;
+	font-size: 12px;
+	justify-content: center;
+	text-align: center;
+
+	padding: 18px;
+    width: 100%; */
+	/* text-align: center;
+	font-size: 12px;
+	margin-top: 200px; */
+	/* padding: 12px; */
 	display: flex;
 	flex-direction: column;
 	margin-top: 0;
@@ -213,10 +180,11 @@ p {
 
 }
 
+
 .incanvas {
 	margin: 5px 0 0 5px;
 	padding: 0;
-	line-height: 1.6;
+	line-height: 1.4;
 }
 
 .grid-page1 {
@@ -266,17 +234,27 @@ select {
 
 }
 
-label{
-	font-size: 18px;
-}
-
-
 /* label {
 	position: absolute;
 	left: 170px;
 	top: 103px;
 	font-size: 15px
 } */
+
+.label {
+	/* display: inline-block; */
+	display: none;
+	width: 80px; /* Adjust width as needed */
+	/* font-weight: bold; */
+}
+
+.value {
+	/* display: inline-block; */
+}
+
+.infoLine{
+	margin-bottom: 10px;
+}
 
 #playButton {
 	position: relative;
@@ -292,293 +270,9 @@ label{
 	background-color: rgb(219, 221, 221);
 	cursor: pointer;
 	font-weight: 600;
+	outline: none;
 
 }
-#n12{
-	font-size: 24px;
-	font-weight: bold;
-	color: #000000;     
-	margin: 0;
-	padding: 0;
-}
-.phoneticsDiv{
-	display: none;
-	/* display: grid; */
-	grid-template-columns: repeat(2, 1fr);
-	/* border: 1px solid black; */
-	padding: 10px;
-	position: relative;
-	top: 30px;
-
-	
-}
-
-.mainPhoneticDiv{
-	display: flex; 
-	align-items: center; 
-	justify-content: center;
-}
-
-.phoneticsDiv div {
-    text-align: justify; /* Justify all child divs */
-}
-#nextButton {
-    position: relative;
-    top: 0.2rem; /* 15px converted to rem */
-   margin: 1.5rem;
-}
-.pronounceDiv{
-	/* display: flex; */
-	display: none;
-	align-items: center;
-	justify-content: center;
-	margin-top: 20px;
-	padding: 2px;
-	position: relative;
-	top: 50px;
-	
-}
-
-
-.spokenvaleDiv{
-	position: relative;
-	top: 60px;
-	margin: 0;
-	padding: 0;
-}
-
-.spokenvalue{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-weight: bold;
-	/* position: relative;
-    top: 120px; */
-	font-size: 20px;
-	padding: 10px;
-	position: relative;
-    top: 15px;
-	/* position: relative;
-	top: 75px; */
-	/* margin-bottom: 40px; */
-	margin: 0;
-	padding: 0;
-	
-}
-
-#pronounce{
-	background-color: #ffffff;
-    border: 2px solid black;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-	border-radius: 12px;
-	/* position: relative;
-	top: 100px; */
-}
-.alphaSelect, .phoneticsText ,.figurecodeSelect, .phoneticsText2{
-	
-	font-weight: bold;
-	font-size: 25px;
-}
-
-.alpha1,.alpha2,.num1,.num2{
-	display: none;
-	font-size: 18px;
-	text-align: center;
-	/* position: relative;
-	top: 50px; */
-}
-
-.table-container{
-	/* display: grid;
-	grid-template-columns: repeat(6, 0.5fr);
-	grid-template-rows: repeat(7,1fr);
-	gap: 10px;
-	border-radius: 5px; */
-	gap: 10px;
-	border-radius: 5px;
-}
-.table-container div{
-	border: 1px solid #000;
-}
-
-.table-container2{
-	gap: 10px;
-	border-radius: 5px;
-}
-
-.table-container2 div{
-	border: 1px solid #000;
-}
-
-
-.searchDiv {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
-  gap: 10px; /* Optional: add space between grid items */
-  align-items: center; /* Align items vertically in the center */
-  place-items: center;
-}
-.grid-item1 {
-	/* text-align: start;  */
-	/* grid-column: 1;
-	display: flex;
-	align-items: center;
-	justify-content: center; */
-	grid-column: 1;
-  }
-  
-  .grid-item2 {
-	/* text-align: end; */
-	grid-column: 2;
-
-	
-  }
-  .grid-item3{
-	grid-column: 3;
-	margin: 1em 0;
-	position: relative;
-	top: 8px;
-  }
-  .selectText{
-	font-size: 16px;
-  }
-  #searchInput{
-	width: 60px	;
-	font-size: 16px;
-	text-transform: uppercase;
-  }
-  #searchInput:disabled{
-	cursor: not-allowed;
-  }
-  #question{
-	margin-left: -20px;
-	font-size: 12px;
-	color: #000;
-	font-weight: bold;
-  }
-  #answer{
-	font-size: 12px;
-	color: #000;
-	font-weight: bold;
-	margin-left: 4px;
-  }
-
-  #questOutput{
-	display: none;
-	font-size: 23px;
-    font-weight: bold;
-    border: 1.5px solid black;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #d3d3d3;
-    text-align: center;
-  }
-
-  #answerOutput{
-	display: none;
-	font-size: 23px;
-    font-weight: bold;
-    border: 1.5px solid black;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #d3d3d3;
-    text-align: center;
-  }
-
-  .labelDiv{
-	position: relative;
-    top: 10px;
-  }
-  .infoQcode{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-size: 20px;
-	text-align: center;
-  }
-  .text2{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	
-  }
-  .meanText{
-	color: #000000;
-	font-weight: bold;
-	font-size: 14px;
-	text-align: center;
-  }
-
-  .outer-border {
-	border: 2px solid rgba(0, 0, 0, 0.8); /* Outer border */
-	padding: 6px; /* Space between outer and inner borders */
-	display: inline-block; /* Adjust if necessary */
-	/* display: flex; */
-	align-items: center;
-	justify-content: center;
-	width: auto;
-	border-radius: 10px;
-  }
-
-  .outer-border2{
-	border: 2px solid rgba(0, 0, 0, 0.8); /* Outer border */
-	padding: 10px; /* Space between outer and inner borders */
-	display: inline-block; /* Adjust if necessary */
-	/* display: flex; */
-	align-items: center;
-	justify-content: center;
-	width: auto;
-	border-radius: 10px;
-  }
-
-  .table-container {
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
-	background-color: #fff;
-	border: 1px solid rgba(0, 0, 0, 0.8);
-	padding: 10px;
-	overflow: auto; /* Enable scrolling */
-	max-height: 300px; /* Adjust height as needed */
-  }
-
-  .table-container2{
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	background-color: #fff;
-	border: 1px solid rgba(0, 0, 0, 0.8);
-	padding: 20px;
-	overflow: auto; /* Enable scrolling */
-	max-height: 300px; /* Adjust height as needed */
-  }
-  .Q-Box {
-	/* background-color: rgba(255, 255, 255, 0.8); */
-	border: 1px solid rgba(0, 0, 0, 0.8);
-	padding: 15px;
-	font-size: 14px;
-	text-align: center;
-	width: 100%;
-	height: auto;
-	cursor: pointer;
-    font-weight: bold;
-    color: #111;
-    background-color: #f0f0f0;
-	border-radius: 5px;
-  }
-  .Q-Box:hover{
-	background-color: rgb(128, 128, 128);
-	color: rgb(30, 30, 30);
-  }
-
- 
-
-
 
 #playButton::before {
 	position: absolute;
@@ -592,106 +286,6 @@ label{
 
 
 }
-
-/* 
-
-.switch input {
-	opacity: 0;
-	width: 0;
-	height: 0;
-} */
-
-/* .switch{
-	background-color: red;
-} */
-
-/* .switch {
-	position: relative;
-	display: inline-block;
-	width: 60px;
-	height: 23px;
-	left: 50px;
-	top: 110px;
-	border: 1px solid black;
-	border-radius: 34px;
-} */
-/* .switch input {
-	opacity: 0;
-	width: 0;
-	height: 0;
-} */
- .switch{
-	position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 23px;
- }
- .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-} 
-/* .slider {
-	display: inline-block;
-	align-items: center;
-	justify-content: center;
-	background-color: #ccc;
-	border: 1px solid black;
-	border-radius: 34px;
-	width: 60px;
-	height: 23px;
-	
-} */
-.slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    border: 1px solid black;
-    transition: .4s;
-    border-radius: 34px;
-}
-
-
-.slider.round {
-	border-radius: 34px;
-}
-
-.slider:before {
-	position: absolute;
-	left: 2px;
-	bottom: 1px;
-	content: "";
-	height: 20px;
-	width: 20px;
-	
-	background-color: white;
-	-webkit-transition: 0s;
-	transition: 0s;
-	border-radius: 50%;
-}
-
-.slider.round:before {
-	border-radius: 50%;
-}
-
-input:checked+.slider {
-	background-color: black;
-}
-
-input:focus+.slider {
-	box-shadow: 0 0 1px black;
-}
-
-input:checked+.slider:before {
-	-webkit-transform: translateX(26px);
-	-ms-transform: translateX(26px);
-	transform: translateX(35px);
-}
-
 
 #playButton:disabled {
 	/* position: absolute;
@@ -710,18 +304,8 @@ input:checked+.slider:before {
 p.ad {
 	display: flex;
 	justify-content: center;
-	position: relative;
-	top: 55px;
-	margin: 0;
-	/* position: relative;
-	top: 110px; */
+	font-size: 16px;
 }
-
-.div1{
-	/* background-color: red; */
-	margin: 0;
-}
-
 
 p.morse {
 	position: absolute;
@@ -745,44 +329,14 @@ p.morse {
 
 }
 
-
 #morseOutput {
-	grid-column: 1;
-	font-weight: bold;
-	font-size: 42px;
-	letter-spacing: 2px;
+	font-size: 65px;
+	letter-spacing: 8px;
 	color: black;
 	font-family: Arial, sans-serif;
-	background-color: yellow;
-	
+	/* background-color: yellow;  */
+
 }
-
-#toggle:disabled +.slider{
-    cursor: not-allowed;
-}
-
-.audText {
-	/* display: flex; */
-	display: none;
-	align-items: center;
-	justify-content: center;
-}
-
-.text3 {
-	font-size: 16px;
-	font-weight: 500;
-	margin-top: 2px;
-	
-	
-}
-
-p.ad {
-	display: flex;
-	justify-content: center;
-}
-
-
-
 
 /* p.selectmorse{
 	position: absolute;
@@ -800,7 +354,7 @@ p.dm {
 }
 
 .morsePlay {
-	display: none;
+	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	align-items: center;
 	justify-items: center;
@@ -900,8 +454,15 @@ p.dm {
 	grid-template-columns: 1fr 1fr 1fr;
 	align-items: center;
 	gap: 1rem;
+	padding: 6px;
+	/* position: relative;
+	top: -20px; */
 }
 
+#convertButton {
+	outline: none;
+	
+}
 
 #hintButton {
 
@@ -910,34 +471,283 @@ p.dm {
 	border-radius: 8px;
 	font-weight: 600;
 	font-family: sans-serif;
+	margin-top: -40px;
+	outline: none;
 }
 
 .imageContent {
-    display: flex;
-    flex-direction: column;
-    /* Arrange items vertically */
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    /* Ensure container takes full width */
-    height: auto;
-    /* Adjust height as needed */
-    text-align: center;
-    /* Center text inside the span */
+	display: none;
+	flex-direction: column;
+	/* Arrange items vertically */
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	/* Ensure container takes full width */
+	height: auto;
+	/* Adjust height as needed */
+	text-align: center;
+	margin-top: -50px;
+	/* Center text inside the span */
 
 }
-.nameDiv {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 600;
+
+:focus {
+	outline: 2px dashed blue;
+}
+
+#callsignDiv {
+	display: grid;
+	grid-template-columns: auto 1fr; /* Two columns: auto for labels, 1fr for the output */
+	row-gap: 10px; /* Space between rows */
+	column-gap: 20px; /* Space between columns */
+	justify-content: center; /* Centers the content horizontally */
+	align-items: center; /* Centers the content vertically */
+	text-align: center; /* Center the text */
+	max-width: 600px;
+	font-size: 16px;
+	padding: 20px;
+	
+	border-radius: 10px;
+	position: relative;
+	top: 20px;
+}
+
+.label {
+	text-align: left;
+	font-size: 18px
+	/* font-weight: bold; */
+}
+
+.output {
+	text-align: left;
+}
+
+#errorMessage {
+	padding: 10px;
+	font-size: 18px;
+	color: red;
+}
+
+.country,
+.callsignCountry {
+	font-size: 18px;
+	font-weight: bold;
+
+}
+
+
+.text1{
+	/* color: red; */
+	position: relative;
+	top: -5px;
 	
 }
 
-/* position:absolute;
-	left:50px;
-	top:50px;
-	height:530px;
-	width:745px; */
+.nameDiv {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 600;
+	position: relative;
+	top: -25px;
+}
 
-/* ONLY do this, when the viewport has a width of at least 500px */
+#morse-code-value {
+	width: 100px;
+	word-wrap: break-word;
+	display: inline-block;
+	position: relative;
+	left: 270px;
+	bottom: 60px;
+	font-weight: bold;
+	/* margin-left: 20px; */
+
+}
+
+
+#errorMain {
+	position: relative;
+	top: 100px;
+	left: 130px;
+}
+
+.menuContainer {
+	position: relative;
+	top: -50px;
+}
+
+#maps {
+	max-width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top: -10px;
+
+}
+
+/* #selectedCountry{
+	position: relative;
+	left: -20px;
+} */
+
+
+
+.mapBtn {
+	padding: 10px;
+	border-radius: 10px;
+	outline: none;
+}
+
+.container {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.countrySelectDiv {
+	position: relative;
+	width: 100%;
+	/* Ensure the div takes full width */
+	max-width: 200px;
+	/* Adjust as needed for your design */
+}
+
+#countryDropdown {
+	width: 100%;
+	/* Input takes full width of the parent */
+	box-sizing: border-box;
+	/* Ensures padding and border are included in the width */
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	width: 100%;
+	/* Match the width of the input field */
+	max-height: 260px;
+	overflow-y: auto;
+	background-color: #f9f9f9;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	border-radius: 7%;
+	outline: none;
+	top: 100%;
+	/* Position directly below the input field */
+	left: 0;
+	/* Align with the input field */
+}
+
+#dropContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top: -3px;
+	left: 335px;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 16px 13px;
+	text-decoration: none;
+	display: block;
+	outline: none;
+	/* border-radius: 10%; */
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+
+#mapContainer {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	top: -30px;
+	border: 1px solid black;
+}
+
+#hamMap {
+	max-width: 100%;
+	max-height: 100%;
+	transition: transform 0.2s ease;
+	cursor: all-scroll;
+  }
+
+#closeButton {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 1;
+	background-color: #ff4d4d;
+	/* Red background */
+	color: white;
+	/* White text color */
+	border: none;
+	/* No border */
+	border-radius: 50%;
+	/* Make it a circle */
+	width: 30px;
+	/* Width of the button */
+	height: 30px;
+	/* Height of the button */
+	font-size: 18px;
+	/* Size of the "X" */
+	font-weight: bold;
+	/* Bold text */
+	cursor: pointer;
+	/* Pointer cursor on hover */
+	text-align: center;
+	/* Center the "X" */
+	line-height: 30px;
+	/* Center the "X" vertically */
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	/* Add a subtle shadow */
+	outline: none;
+}
+
+#closeButton:hover {
+	background-color: #ff1a1a;
+	outline: none;
+	/* Darker red on hover */
+}
+
+
+.hidden {
+	display: none;
+}
+
+#hamMap:active {
+	cursor: grabbing;
+}
+
+
+#zoomControls {
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .zoomBtn {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 10px;
+	font-size: 20px;
+	margin: 5px 0;
+	cursor: pointer;
+	outline: none;
+  }
+  
+  .zoomBtn:hover {
+	background-color: #f0f0f0;
+  }
+  

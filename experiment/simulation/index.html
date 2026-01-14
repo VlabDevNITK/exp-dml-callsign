@@ -2,224 +2,142 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SOLVE</title>
-  <meta name="description" content="A small project to remonstrate media queries and other responsive design patterns.">
-  <meta name="author" content="Rocco P">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/querry.css">
-  <script type="text/javascript" src="js/script.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOLVE</title>
+    <meta name="description"
+        content="A small project to remonstrate media queries and other responsive design patterns.">
+    <meta name="author" content="Rocco P">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/querry.css">
+    <script type="text/javascript" src="js/script.js"></script>
 </head>
 
 <body class="paintitred">
 
-  <main class="content">
-    <div class="main-heading">
-      <h1>Exploring Morse Code: Phonetics</h1>
-
-    </div>
-    <div class="main-canvas">
-      <div class="simsubscreen" id="canvas0">
-        <div class="grid-page1">
-          <h4 class="incanvas">Objective:</h4>
-          <p class="incanvas" style="font-size:14px;text-align: justify;">To develop a comprehensive understanding of
-            the International Telecommunication Union (ITU) phonetics.</p>
-          <br />
-
-          <br>
-          <h4 class="incanvas">Description:</h4>
-
-          <p class="incanvas" style="font-size:14px; text-align: justify;">
-            Phonetics, in the context of HAM radio and various communication fields, is a crucial element for enhancing
-            the clarity of spoken communication.
-            It involves the study of the physical properties of speech sounds,
-            including how they are produced, transmitted, and perceived.
-            The use of phonetics in HAM radio serves to ensure accurate and clear information transmission, particularly
-            when conveying letters, numbers, or codes. <br>
-            <br>In HAM radio, the application of phonetics includes the use of a standardized phonetic alphabet, such as
-            the International Telecommunication Union (ITU) phonetic alphabet.
-            This phonetic alphabet assigns specific words to each letter of the alphabet, simplifying letter
-            identification and improving communication clarity, especially in challenging radio conditions.
-            <br>
-            <br>
-            Phonetics in HAM radio primarily focuses on spoken words to enhance clarity and minimize errors during voice
-            communication, making it an essential tool for effective and reliable radio operations.
-
-            Phonetics provide a standardized and clear method to convey information, reducing the likelihood of errors.The phonetic alphabet, 
-            also known as the International Radiotelephony Spelling Alphabet, was developed to ensure uniformity and clarity in radio communication 
-            across different languages and accents.
-          </p>
+    <main class="content">
+        <div class="main-heading">
+            <h1>EXPLORING HAM RADIO: UNDERSTANDING INTERNATIONAL CALL SIGN ALLOCATION</h1>
 
         </div>
+        <div class="main-canvas">
+            <div class="simsubscreen" id="canvas0">
+                <div class="grid-page1">
+                    <h4 class="incanvas obj">Objective:</h4>
+                    <p class="incanvas" style="font-size:14px;text-align: justify;">Familiarising with the concept of
+                        call signs in HAM radio and
+                        their international
+                        allocation.
+                        Developing the ability to recognize and identify call signs from different countries/regions.
+                    </p>
+                    <br />
 
-      </div>
-      <div class="simsubscreen" id="canvas1" name="canvas1" style="display: none;">
+                    <br>
+                    <h4 class="incanvas">Description:</h4>
 
-
-          <strong class="incanvas">STEP:</strong>
-          <p class="steptext">&nbsp;Choose either "Alphabets" or "Figure Code," then click any option in the table.
-
-          </p>
-
-          <form class="formDiv">
-            <input type="radio" id="alphabets" name="select_option" value="Alphabets"
-              onclick="toggleTable('alphabets')" />
-            <label for="alphabets" style="font-weight: bold;">Alphabets</label><br /><br />
-            <input type="radio" id="figure-code" name="select_option" value="Figure-code"
-              onclick="toggleTable('figure-code')" />
-            <label for="figure-code" style="font-weight: bold;">Figure code</label><br />
-          </form>
-
-            <p class="morse" id="numberMorse" hidden></p>
-            <div class="morsePlay">
-              <span class="out "></span>
-              <span class="output" style="display: none;"></span>
-              <button id="playButton" onclick="playMorseSequence()">Play</button>
-
-              <p>
-                <span id="morseOutput" class="out2" class="morse-char-initial" id="morse-output1"></span>
-              </p>
-            </div>
-
-            <div id="mainDiv2" style="display: none; align-items: center; justify-content: center;">
-            <div class="phoneticsDiv">
-              <div class="alpha1">Selected alphabet: <span class="alphaSelect"></span> </div>
-              <div class="alpha2">Phonetic equivalent: <span class="phoneticsText"></span> </div>
-              <div class="num1" style="display: none;">Selected figureCode: <span class="figurecodeSelect"></span>
-              </div>
-              <div class="num2" style="display: none;">Phonetic equivalent: <span class="phoneticsText2"></span> </div>
-            </div>
-          </div>
-            <div class="pronounceDiv">
-              <button id="pronounce">Pronounce</button>
-            </div>
-            <div class="audText">
-              <p class="text3 ad">keep audio on
-              </p>
-            </div>
-            <div class="spokenvaleDiv" style="visibility: hidden;height: 50px;">
-              <div class="spokenvalue"></div>
-            </div>
-            <div class="menu-container" id="alphabetTable">
-              <div class="outer-border">
-                <div class="table-container">
-                  <div class="Q-Box" id="q1" onclick="displaySelection('alphabet', 'A')">A <span
-                      class="lowercase">a</span> </div>
-                  <div class="Q-Box" id="q2" onclick="displaySelection('alphabet', 'B')">B<span
-                      class="lowercase">b</span></div>
-                  <div class="Q-Box" id="q3" onclick="displaySelection('alphabet', 'C')">C<span
-                      class="lowercase">c</span></div>
-                  <div class="Q-Box" id="q4" onclick="displaySelection('alphabet', 'D')">D<span
-                      class="lowercase">d</span></div>
-                  <div class="Q-Box" id="q5" onclick="displaySelection('alphabet', 'E')">E<span
-                      class="lowercase">e</span></div>
-                  <div class="Q-Box" id="q6" onclick="displaySelection('alphabet', 'F')">F<span
-                      class="lowercase">f</span></div>
-                  <div class="Q-Box" id="q7" onclick="displaySelection('alphabet', 'G')">G<span
-                      class="lowercase">g</span></div>
-                  <div class="Q-Box" id="q8" onclick="displaySelection('alphabet', 'H')">H<span
-                      class="lowercase">h</span></div>
-                  <div class="Q-Box" id="q9" onclick="displaySelection('alphabet', 'I')">I<span
-                      class="lowercase">i</span></div>
-                  <div class="Q-Box" id="q10" onclick="displaySelection('alphabet', 'J')">J<span
-                      class="lowercase">j</span></div>
-                  <div class="Q-Box" id="q11" onclick="displaySelection('alphabet', 'K')">K<span
-                      class="lowercase">k</span></div>
-                  <div class="Q-Box" id="q12" onclick="displaySelection('alphabet', 'L')">L<span
-                      class="lowercase">l</span></div>
-                  <div class="Q-Box" id="q13" onclick="displaySelection('alphabet', 'M')">M<span
-                      class="lowercase">m</span></div>
-                  <div class="Q-Box" id="q14" onclick="displaySelection('alphabet', 'N')">N<span
-                      class="lowercase">n</span></div>
-                  <div class="Q-Box" id="q15" onclick="displaySelection('alphabet', 'O')">O<span
-                      class="lowercase">o</span></div>
-                  <div class="Q-Box" id="q16" onclick="displaySelection('alphabet', 'P')">P<span
-                      class="lowercase">p</span></div>
-                  <div class="Q-Box" id="q17" onclick="displaySelection('alphabet', 'Q')">Q<span
-                      class="lowercase">q</span></div>
-                  <div class="Q-Box" id="q18" onclick="displaySelection('alphabet', 'R')">R<span
-                      class="lowercase">r</span></div>
-                  <div class="Q-Box" id="q19" onclick="displaySelection('alphabet', 'S')">S<span
-                      class="lowercase">s</span></div>
-                  <div class="Q-Box" id="q20" onclick="displaySelection('alphabet', 'T')">T<span
-                      class="lowercase">t</span></div>
-                  <div class="Q-Box" id="q21" onclick="displaySelection('alphabet', 'U')">U<span
-                      class="lowercase">u</span></div>
-                  <div class="Q-Box" id="q22" onclick="displaySelection('alphabet', 'V')">V<span
-                      class="lowercase">v</span></div>
-                  <div class="Q-Box" id="q23" onclick="displaySelection('alphabet', 'W')">W<span
-                      class="lowercase">w</span></div>
-                  <div class="Q-Box" id="q24" onclick="displaySelection('alphabet', 'X')">X<span
-                      class="lowercase">x</span></div>
-                  <div class="Q-Box" id="q25" onclick="displaySelection('alphabet', 'Y')">Y<span
-                      class="lowercase">y</span></div>
-                  <div class="Q-Box" id="q26" onclick="displaySelection('alphabet', 'Z')">Z<span
-                      class="lowercase">z</span></div>
-
+                    <p class="incanvas" style="font-size:14px; text-align: justify;">
+                        <span class="incanvas"
+                            style="font-weight: bold; margin-left: 0px;display: inline-block; white-space: nowrap;">HAM
+                            Radio Call Signs:</span>
+                        In the realm
+                        of amateur radio, often referred as HAM
+                        radio, call signs serve as distinctive identifiers for communication. These call signs play a
+                        crucial role in identifying the operator or station during radio transmissions. <br>
+                        <br>
+                        <span class="incanvas"
+                            style="font-weight: bold; font-size: 14px;margin-left: 0px;display: inline-block; white-space: nowrap;">International
+                            Call Sign
+                            Allocations:</span> The International Telecommunication Union (ITU) is responsible for allocating call sign series
+                        to various countries. Each country is assigned a unique prefix that forms the first part of the
+                        call sign, which can be a single letter, a combination of letters, or numbers. These prefixes
+                        not only identify the country or region of the operator but also provide key information about
+                        the station's authority and regulatory framework. For example, the United States uses prefixes
+                        like "K", "N", and "W", while Japan uses "JA", and Germany uses "D".This global system ensures
+                        that operators from different regions can communicate seamlessly,
+                        recognizing the origin of transmissions at a glance. Countries may have different call sign
+                        formats for various purposes, including special events, temporary or contest licenses, and even
+                        disaster relief operations. <br><br>Special prefixes are often issued for significant national
+                        or
+                        international celebrations, like centenaries of major radio organizations or anniversaries of
+                        national independence. Additionally, countries may designate vanity or commemorative call signs
+                        to promote radio awareness or honor famous radio operators.
+                    </p>
                 </div>
-              </div>
             </div>
 
-            <div class="menu-container2" id="figureCodeTable" style="display: none;">
-              <div class="outer-border2">
-                <div class="table-container2">
-                  <div class="Q-Box" id="n1" onclick="displaySelection('number', '0')">0</div>
-                  <div class="Q-Box" id="n2" onclick="displaySelection('number', '1')">1</div>
-                  <div class="Q-Box" id="n3" onclick="displaySelection('number', '2')">2</div>
-                  <div class="Q-Box" id="n4" onclick="displaySelection('number', '3')">3</div>
-                  <div class="Q-Box" id="n5" onclick="displaySelection('number', '4')">4</div>
-                  <div class="Q-Box" id="n6" onclick="displaySelection('number', '5')">5</div>
-                  <div class="Q-Box" id="n7" onclick="displaySelection('number', '6')">6</div>
-                  <div class="Q-Box" id="n8" onclick="displaySelection('number', '7')">7</div>
-                  <div class="Q-Box" id="n9" onclick="displaySelection('number', '8')">8</div>
-                  <div class="Q-Box" id="n10" onclick="displaySelection('number', '9')">9</div>
-                  <div class="Q-Box" id="n11" onclick="displaySelection('number', '0.0')">0.0</div>
-                  <div class="Q-Box" id="n12" onclick="displaySelection('number', '.')">.</div>
+            <div class="simsubscreen" id="canvas1" name="canvas1" style="display: none;">
+                <div>
+                    <strong class="incanvas">STEP:</strong>
+                    <p class="steptext" style="font-family: verdana;font-size: 14px;text-align: justify;">&nbsp;Select
+                        the country name
+                        from the
+                        dropdown menu.</p> <br><br> <br> <br>
+                    <div class="menuContainer">
+                        <div class="container">
+                            <div class="countrySelectDiv">
+                                <p class="text" style="font-size: 16px; align-items: center;text-align: center;"><span
+                                        class="text1">Select
+                                        a country:</span>
+                                    <input type="text" id="countryDropdown" class="searchable-dropdown" placeholder=""
+                                        autocomplete="off">
+                                </p>
+                                <div id="countryList" class="dropdown-content"></div>
+                            </div>
+                        </div>
 
+                        <div class="btnDiv">
+                            <button id="convertButton" style="border-radius: 10px; padding: 5px;">Submit</button>
+                        </div>
+
+
+                        <div id="mainCallDiv" style="display: flex;align-items: center; justify-content: center;">
+                            <div id="callsignDiv">
+                                <div class="label">Selected country:</div>
+                                <div class="output country"></div>
+                                <div class="label">Callsigns:</div>
+                                <div class="output callsignCountry"></div>
+                                
+                            </div>
+                        </div>
+                        <div style="display: flex;align-items: center;justify-content: center;text-align: center;">
+                        <div id="errorMessage"></div>
+                    </div>
+
+                    </div>
+                    <div id="mapContent">
+                        <div id="maps">
+                            <button id="viewMapButton" class="mapBtn" onclick="displayMap()" title="world prefix map that includes callsign prefixes of every country">Show call sign map</button>
+                        </div>
+                        <div id="mapContainer" class="hidden">
+                            <button id="closeButton">x</button>
+                            <img id="hamMap" src="images/hamMap.jpg" alt="Ham Map" style="display: none;">
+                            <div id="zoomControls">
+                                <button id="zoomIn" class="zoomBtn">+</button>
+                                <button id="zoomOut" class="zoomBtn">-</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
 
-              <div id="backDiv">
-                <button id="backButton">
-                  <img src="./images/left-arrow-in-circular-button-black-symbol.png" alt="Back">
-                  Back</button>
-
-
-              </div>
-
-            <!-- <div class="infoQcode">
-              <div id="questOutput"></div>
-              <div id="answerOutput"></div>
-            </div> -->
-    
-           
-
-            <div class="errorText2">
-              <div id="errorText" style="color: red; text-align: center;"></div>
+            <div id="nav">
+                <img id="nextButton" onclick="navNext()" src="images/Next.png" alt="" /></a>
             </div>
-          <!-- </div> -->
-        <!-- </div> -->
-      </div>
+            <div id="copyright"> &copy;<script>
+                    document.write(new Date().getFullYear() - 1);
+                    document.write(" - ");
+                    document.write(new Date().getFullYear());
+                </script> SOLVE - The Virtual Lab @ NITK Surathkal, Department of Water Resources & Ocean Engineering
+            </div>
+        </div>
+        </div>
+        </div>
 
+    </main>
 
-      <div id="nav">
-
-        <img id="nextButton" onclick="navNext()" src="images/Next.png" alt="" /></a>
-
-      </div>
-      <div id="copyright"> &copy; <script>
-          document.write(new Date().getFullYear() - 1);
-          document.write(" - ");
-          document.write(new Date().getFullYear());
-        </script> SOLVE - The Virtual Lab @ NITK Surathkal, Department of Water Resources & Ocean Engineering</div>
-    </div>
-    <!-- </div> -->
-  </main>
 </body>
 
 </html>
